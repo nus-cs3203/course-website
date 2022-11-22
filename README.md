@@ -1,4 +1,4 @@
-### CS2103 Website
+### CS3203 Website
 
 [Website URL](https://nus-cs3203.github.io/course-website/index.html)
 
