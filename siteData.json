@@ -2,6 +2,16 @@
   "enableSearch": true,
   "pages": [
     {
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "cs3203-website": "CS3203 Website",
+        "setting-up": "Setting up",
+        "updating-content": "Updating content"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "contents/team.md",
       "title": "",
       "headings": {
