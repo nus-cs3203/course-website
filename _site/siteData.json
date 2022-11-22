@@ -1,0 +1,64 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "contents/team.md",
+      "title": "",
+      "headings": {
+        "team-formation": "Team Formation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools-downloads.md",
+      "title": "",
+      "headings": {
+        "tools-downloads": "Tools Downloads",
+        "startup-spa-solution": "Startup SPA solution",
+        "windows": "Windows",
+        "cross-platform": "Cross-platform",
+        "tools-lab-slides": "Tools Lab Slides",
+        "sample-simple-source-program": "Sample SIMPLE Source Program",
+        "python-script-check-submission-py": "Python Script check-submission.py"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools.md",
+      "title": "",
+      "headings": {
+        "tools": "Tools",
+        "tools-lab": "Tools Lab"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/topic1.md",
+      "title": "",
+      "headings": {
+        "update-history": "Update History"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/topic3a.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/topic3b.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Landing Page",
+      "headings": {
+        "welcome-to-the-project-wiki-for-cs3203": "Welcome to the project wiki for CS3203"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
