@@ -6,7 +6,7 @@
 
 <br>
 
-<div class="bg-primary text-white py-5 mb-4">
+<div class="bg-info text-white py-5 mb-4">
   <div class="container">
     <h1 class="display-4 no-index">CS3203 : Software Engineering Project</h1>
     <p class="lead">Computing • 8 MCs • Semester 1 • Semester 2</p>
