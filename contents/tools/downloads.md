@@ -1,5 +1,11 @@
 <br>
 
+<frontmatter>
+  layout: default.md
+  pageNav: 2
+  pageNavTitle: "Chapters of This Page"
+</frontmatter>
+
 ## Tools Downloads
 
 This page provides the links to the project-related files.
@@ -16,23 +22,23 @@ As a reminder, we will create the Github repository for you, which will have the
 
 ### Windows
 
-<a href="../raw/main/archive/spa-win-2022-Jan-07.zip" target="_blank">spa-win.zip</a>
+<a href="../archive/spa-win-2022-Jan-07.zip" target="_blank">spa-win.zip</a>
 
 Related GitHub Wiki page: Windows Startup SPA Solution
 
 ### Cross-platform
 
-<a href="../raw/main/archive/spa-cp-2022-Jan-07.zip" target="_blank">spa-cp.zip</a>
+<a href="../archive/spa-cp-2022-Jan-07.zip" target="_blank">spa-cp.zip</a>
 
 Related GitHub Wiki page: Cross-platform Startup SPA Solution
 
 ## Tools Lab Slides
 
-<a href="../raw/main/tools-lab-slides/tools-lab.pdf" target="_blank">tools-lab.pdf</a>
+<a href="../tools-lab-slides/tools-lab.pdf" target="_blank">tools-lab.pdf</a>
 
 ## Sample SIMPLE Source Program
 
-<a href="../tree/main/sample-simple-source-programs/prototype_sample_SIMPLE_source.txt" target="_blank">prototype_sample_SIMPLE_source.txt </a>
+<a href="../sample-simple-source-programs/prototype_sample_SIMPLE_source.txt" target="_blank">prototype_sample_SIMPLE_source.txt </a>
 
 This SIMPLE source program is included in the startup solution, which allows you to test your source parser in Iteration 1.
 
