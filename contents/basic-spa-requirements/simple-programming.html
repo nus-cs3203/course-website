@@ -22,7 +22,7 @@
 <script>
   const baseUrl = '/course-website'
 </script>
-<body >
+<body  data-bs-spy="scroll" data-bs-target="#mb-page-nav" data-bs-offset="100" >
 <div id="app" data-server-rendered="true"><header sticky=""><div data-v-15113a2f><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-15113a2f><div class="container-fluid" data-v-15113a2f><div class="navbar-left" data-v-15113a2f><a href="/course-website/index.html" title="Home" class="navbar-brand" data-v-15113a2f>CS3203</a></div> <div class="navbar-default" data-v-15113a2f><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-15113a2f></ul></div> <ul class="navbar-nav navbar-right" data-v-15113a2f><li data-v-15113a2f><form class="navbar-form" data-v-15113a2f><div class="dropdown" style="position:relative;" data-v-2955e59c><input data-bs-toggle="dropdown" type="text" placeholder="Search" autocomplete="off" value="" class="form-control" data-v-2955e59c> <div class="form-control placeholder-div-hidden" data-v-2955e59c>
       Search
     </div> <ul class="dropdown-menu search-dropdown-menu d-none dropdown-menu-end" data-v-2955e59c></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-15113a2f><!----> <!----></div></div></header> <div id="flex-body"><nav id="site-nav" data-v-e8c82f88><div class="site-nav-top" data-v-e8c82f88><div class="fw-bold mb-2" style="font-size:1.25rem;" data-v-e8c82f88>Content</div></div> <div class="nav-component slim-scroll" data-v-e8c82f88><div class="site-nav-root"><ul class="site-nav-list site-nav-list-root" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88><a href="/course-website/index.html" data-v-e8c82f88>Home 🏠</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88><a href="/course-website/contents/update-history.html" data-v-e8c82f88>Update History</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88><a href="/course-website/contents/team.html" data-v-e8c82f88>Team Formation</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88>Tools 
@@ -33,7 +33,174 @@
 
 <i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/introduction.html" data-v-e8c82f88>Introduction</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88>Further PQL Discussion 
 
-<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-3" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/such-that-clause.html" data-v-e8c82f88>Such-That Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-3" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/assign-pattern-clause.html" data-v-e8c82f88>Assign Pattern Clauses</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/example-queries.html" data-v-e8c82f88>Example queries</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/intended-behaviour-format-results.html" data-v-e8c82f88>Intended Behaviour &amp; Format of Results</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/faq.html" data-v-e8c82f88>FAQ</a></div></li></ul></li> <!----></ul></div></div> <!----></nav> <div id="content-wrapper"><i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88></div> <!----></nav></div> <footer><div class="text-center"><small>[Generated by <a href="https://markbind.org/">MarkBind 4.0.2</a>]</small></div></footer></div>
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-3" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/such-that-clause.html" data-v-e8c82f88>Such-That Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-3" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/assign-pattern-clause.html" data-v-e8c82f88>Assign Pattern Clauses</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/program-query-language/example-queries.html" data-v-e8c82f88>Example queries</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/intended-behaviour-format-results.html" data-v-e8c82f88>Intended Behaviour &amp; Format of Results</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/basic-spa-requirements/faq.html" data-v-e8c82f88>FAQ</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88>SPA Requirements - Advanced SPA 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/cfg.html" data-v-e8c82f88>Control Flow Graph</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/design-abstractions.html" data-v-e8c82f88>Design Abstractions</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88>PQL 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/pql.html" data-v-e8c82f88>Introduction</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/PQL/select-clauses.html" data-v-e8c82f88>Select Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/PQL/such-that-clauses.html" data-v-e8c82f88>Such-That Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/PQL/pattern-clauses.html" data-v-e8c82f88>Pattern Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/PQL/with-clauses.html" data-v-e8c82f88>With Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/PQL/multi-clauses.html" data-v-e8c82f88>Multi Clauses</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/PQL/example-queries.html" data-v-e8c82f88>Example Queries</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/advanced-spa-requirements/format-res.html" data-v-e8c82f88>Format of Results</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88>Project Requirements - Milestone 1 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-1/scope.html" data-v-e8c82f88>Scope</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-1/admin.html" data-v-e8c82f88>Administrative Matters</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-1/tips.html" data-v-e8c82f88>Tips</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88>Project Requirements - Milestone 2 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-2/scope.html" data-v-e8c82f88>Scope</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-2/admin.html" data-v-e8c82f88>Administrative Matters</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-2/tips.html" data-v-e8c82f88>Tips</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88>Project Requirements - Milestone 3 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-3/scope.html" data-v-e8c82f88>Scope</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirements-3/admin.html" data-v-e8c82f88>Administrative Matters</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88>Project Requirements - Guidelines 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88>Code Submission Guidelines 
+
+<i onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();" class="site-nav-dropdown-btn-icon site-nav-rotate-icon" data-v-e8c82f88><span aria-hidden="true" class="glyphicon glyphicon-menu-down" data-v-e8c82f88></span></i></div><ul class="site-nav-dropdown-container site-nav-dropdown-container-open site-nav-list" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/project-requirement-guidelines/csg.html" data-v-e8c82f88>Introduction</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-2" data-v-e8c82f88><a href="/course-website/contents/project-requirement-guidelines/sub-format-check.html" data-v-e8c82f88>Submission Format Checker</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirement-guidelines/rsg.html" data-v-e8c82f88>Report Submission Guidelines</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirement-guidelines/cdg.html" data-v-e8c82f88>Code Demonstration Guidelines</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirement-guidelines/opg.html" data-v-e8c82f88>Oral Presentation Guidelines</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-1" data-v-e8c82f88><a href="/course-website/contents/project-requirement-guidelines/gg.html" data-v-e8c82f88>Grading Guidelines</a></div></li></ul></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88><a href="/course-website/contents/reference.html" data-v-e8c82f88>Reference Books</a></div></li> <!----></ul></div></div> <!----></nav> <div id="content-wrapper"><br> <h1 id="simple-programming-language"><span id="simple-programming-language" class="anchor"></span><a href="#simple-programming-language"></a>SIMPLE Programming Language<a href="#simple-programming-language" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <p>The static analysis is done on a programming language called SIMPLE. It is designed for the purpose of experimenting with SPA techniques and allows students to complete the project in one semester. It is not a language for solving real programming problems. However, it contains all the basic constructs of a programming language for writing meaningful programs.</p> <p>Several sample programs that can be written in SIMPLE are shown below:</p> <h5 id="code-1-compute-average-of-three-integer-numbers"><span id="code-1-compute-average-of-three-integer-numbers" class="anchor"></span><a href="#code-1-compute-average-of-three-integer-numbers"></a>Code 1: Compute average of three integer numbers<a href="#code-1-compute-average-of-three-integer-numbers" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <pre><code class="line-numbers">procedure computeAverage {
+    read num1;
+    read num2;
+    read num3;
+
+    sum = num1 + num2 + num3;
+    ave = sum / 3;
+
+    print ave;
+}
+</code></pre> <h5 id="code-2-print-numbers-in-ascending-order"><span id="code-2-print-numbers-in-ascending-order" class="anchor"></span><a href="#code-2-print-numbers-in-ascending-order"></a>Code 2: Print numbers in ascending order<a href="#code-2-print-numbers-in-ascending-order" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <pre><code class="line-numbers">procedure printAscending {
+    read num1;
+    read num2;
+    noSwap = 0;
+
+    if (num1 &gt; num2) then {
+      temp = num1;
+      num1 = num2;
+      num2 = temp;
+    } else {
+      noSwap = 1;
+    }
+
+    print num1;
+    print num2;
+    print noSwap;
+}
+</code></pre> <h5 id="code-3-compute-the-sum-of-the-digits-of-an-integer"><span id="code-3-compute-the-sum-of-the-digits-of-an-integer" class="anchor"></span><a href="#code-3-compute-the-sum-of-the-digits-of-an-integer"></a>Code 3: Compute the sum of the digits of an integer<a href="#code-3-compute-the-sum-of-the-digits-of-an-integer" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <pre><code class="line-numbers">procedure sumDigits {
+    read number;
+    sum = 0;
+
+    while (number &gt; 0) {
+        digit = number % 10;
+        sum = sum + digit;
+        number = number / 10;
+    }
+
+    print sum;
+}
+</code></pre> <h5 id="code-4-program-with-multiple-procedures"><span id="code-4-program-with-multiple-procedures" class="anchor"></span><a href="#code-4-program-with-multiple-procedures"></a>Code 4: Program with multiple procedures<a href="#code-4-program-with-multiple-procedures" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <pre><code class="line-numbers">    procedure main {
+01      flag = 0;
+02      call computeCentroid;
+03      call printResults;
+    }
+    procedure readPoint {
+04      read x;
+05      read y;
+    }
+    procedure printResults {
+06      print flag;
+07      print cenX;
+08      print cenY;
+09      print normSq;
+    }
+    procedure computeCentroid {
+10      count = 0;
+11      cenX = 0;
+12      cenY = 0;
+13      call readPoint;
+14      while ((x != 0) &amp;&amp; (y != 0)) {
+15          count = count + 1;
+16          cenX = cenX + x;
+17          cenY = cenY + y;
+18          call readPoint;
+        }
+19      if (count == 0) then {
+20          flag = 1;
+        } else {
+21          cenX = cenX / count;
+22          cenY = cenY / count;
+        }
+23      normSq = cenX * cenX + cenY * cenY;
+    }
+</code></pre> <h1 id="general-information"><span id="general-information" class="anchor"></span><a href="#general-information"></a>General Information<a href="#general-information" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <p>The following are some general information:</p> <ul><li><strong>Program</strong>: Made up of one or more procedures</li> <li><strong>Procedure</strong>: Non-empty list of statements with no parameters, nesting nor recursion</li> <li><strong>Variable</strong>: Unique names, global scope, integer type, and does not have declarations</li> <li><strong>Statement</strong>: Assignments, while loops, if-then-else statements, call statements, print statements or read statements</li> <li><strong>Condition</strong>: Boolean expressions containing operators</li> <li><strong>Operator</strong>: <code class="line-numbers hljs inline no-lang">+, -, *, /, %, &lt;, &gt;</code>, etc.</li> <li>No arrays, no pointers</li></ul> <p>Program statements are of the following types:</p> <ul><li>Call statements
+<ul><li>Invokes a procedure by its name.</li> <li>E.g. <code class="line-numbers hljs inline no-lang">call readPoint;</code></li></ul></li> <li>Assignment statement
+<ul><li>Assigns the results of the expression on the right to the variable on the left.</li> <li>E.g. <code class="line-numbers hljs inline no-lang">x = a + 2 * b;</code></li></ul></li> <li>While statement
+<ul><li>Executes statements in the body until the condition becomes false.</li> <li>E.g. <code class="line-numbers hljs inline no-lang">while (i &gt; 0) { ... }</code></li></ul></li> <li>If statement
+<ul><li>Executes statements in the <code class="line-numbers hljs inline no-lang">then</code> branch if condition is true; otherwise executes statements in the <code class="line-numbers hljs inline no-lang">else</code> branch.</li> <li>The <code class="line-numbers hljs inline no-lang">else</code> branch is mandatory.</li> <li>E.g. <code class="line-numbers hljs inline no-lang">if (i &gt; 0) then { ... } else { ... }</code></li></ul></li> <li>Read statement
+<ul><li>Reads the value from standard input (console) and assigns it to the variable.</li> <li>It is similar to <code class="line-numbers hljs inline no-lang">scanf</code> and <code class="line-numbers hljs inline no-lang">cin</code> in C/C++, and does not read the value from the variable.</li> <li>E.g. <code class="line-numbers hljs inline no-lang">read x;</code></li></ul></li> <li>Print output
+<ul><li>Outputs the value of the variable to standard output (console).</li> <li>E.g. <code class="line-numbers hljs inline no-lang">print x;</code></li></ul></li></ul> <h1 id="concrete-syntax-grammar-csg"><span id="concrete-syntax-grammar-csg" class="anchor"></span><a href="#concrete-syntax-grammar-csg"></a>Concrete Syntax Grammar (CSG)<a href="#concrete-syntax-grammar-csg" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <p>A source program written in SIMPLE is syntactically valid if it follows all the defined language rules. The rules are defined as a <strong>Concrete Syntax Grammar (CSG)</strong>.</p> <p>CSG contains rules (or grammar productions) that are written using terminals (keywords) and non-terminals.</p> <ul><li>Terminals (keywords) are between apostrophes
+<ul><li>E.g. <code class="line-numbers hljs inline no-lang">'procedure'</code>, <code class="line-numbers hljs inline no-lang">')'</code>, <code class="line-numbers hljs inline no-lang">'+'</code>, <code class="line-numbers hljs inline no-lang">'while'</code>, <code class="line-numbers hljs inline no-lang">'if'</code>, etc.</li></ul></li> <li>Non-terminals are in lower-casing
+<ul><li>E.g. <code class="line-numbers hljs inline no-lang">var_name</code>, <code class="line-numbers hljs inline no-lang">term</code>, <code class="line-numbers hljs inline no-lang">expr</code>, <code class="line-numbers hljs inline no-lang">stmt_list</code>, etc.</li></ul></li></ul> <p>For example, the grammar for SIMPLE starts with a non-terminal <code class="line-numbers hljs inline no-lang">program</code>. A program contains one or more procedures. Each procedure is defined using the terminal keyword <code class="line-numbers hljs inline no-lang">'procedure'</code>, followed by a procedure name (non-terminal <code class="line-numbers hljs inline no-lang">proc_name</code>), followed by the keyword <code class="line-numbers hljs inline no-lang">'{'</code>, followed by a statement list (non-terminal <code class="line-numbers hljs inline no-lang">stmtLst</code>), followed by <code class="line-numbers hljs inline no-lang">'}'</code>. Non-terminal <code class="line-numbers hljs inline no-lang">stmtLst</code> contains one or more statements (<code class="line-numbers hljs inline no-lang">stmt</code>), and <code class="line-numbers hljs inline no-lang">stmt</code> can be a read, print, call, while, if or assign statement.</p> <p><strong>Meta symbols:</strong></p> <pre><code class="line-numbers">a*        - repetition 0 or more times of a
+a+        - repetition 1 or more times of a
+a | b     - a or b
+Brackets ( and ) are used for grouping
+</code></pre> <p><strong>Lexical tokens:</strong></p> <pre><code class="line-numbers">LETTER: A-Z | a-z                - capital or small letter
+DIGIT: 0-9
+NZDIGIT: 1-9                          - non-zero digit
+NAME: LETTER (LETTER | DIGIT)*   - procedure names and variables are strings of
+                                   letters, and digits, starting with a letter
+INTEGER : 0 | NZDIGIT ( DIGIT )*      - Constants are sequence of digits with no leading zero
+</code></pre> <p><strong>Grammar rules:</strong></p> <pre><code class="line-numbers">program: procedure+
+procedure: 'procedure' proc_name '{' stmtLst '}'
+stmtLst: stmt+
+stmt: read | print | call | while | if | assign
+
+read: 'read' var_name';'
+print: 'print' var_name';'
+call: 'call' proc_name';'
+while: 'while' '(' cond_expr ')' '{' stmtLst '}'
+if: 'if' '(' cond_expr ')' 'then' '{' stmtLst '}' 'else' '{' stmtLst '}'
+assign: var_name '=' expr ';'
+
+cond_expr: rel_expr | '!' '(' cond_expr ')' |
+           '(' cond_expr ')' '&amp;&amp;' '(' cond_expr ')' |
+           '(' cond_expr ')' '||' '(' cond_expr ')'
+
+rel_expr: rel_factor '&gt;' rel_factor | rel_factor '&gt;=' rel_factor |
+          rel_factor '&lt;' rel_factor | rel_factor '&lt;=' rel_factor |
+          rel_factor '==' rel_factor | rel_factor '!=' rel_factor
+
+rel_factor: var_name | const_value | expr
+expr: expr '+' term | expr '-' term | term
+term: term '*' factor | term '/' factor | term '%' factor | factor
+factor: var_name | const_value | '(' expr ')'
+
+var_name, proc_name: NAME
+const_value: INTEGER
+</code></pre> <p><strong>Note:</strong></p> <ol><li><p>SIMPLE is case-sensitive. The grammar shows the accepted casing for the keywords of the language. Due to case-sensitivity, variables &quot;abc&quot; and &quot;Abc&quot; are two different variables.</p></li> <li><p>Whitespaces (including multiple spaces, tabs, or no spaces) can be used freely in SIMPLE. For example, tokenizer should recognize three tokens <code class="line-numbers hljs inline no-lang">x</code>, <code class="line-numbers hljs inline no-lang">+</code> and <code class="line-numbers hljs inline no-lang">y</code> in any of the following character streams:</p> <ul><li><code class="line-numbers hljs inline no-lang">x+y</code></li> <li><code class="line-numbers hljs inline no-lang">x + y</code></li> <li><code class="line-numbers hljs inline no-lang">x +y</code></li></ul></li> <li><p>Procedure names, variable names and terminals can all be the same.</p> <ul><li>E.g. <code class="line-numbers hljs inline no-lang">read read; read = read + 1;</code></li></ul></li> <li><p>Logical expressions may only appear as the conditions for while / if statements and they are fully bracketed.</p></li> <li><p>There are no boolean values (<code class="line-numbers hljs inline no-lang">true</code> / <code class="line-numbers hljs inline no-lang">false</code>).</p></li> <li><p>Expressions are left-associative due to the following grammar rules:</p> <p>expr: expr '+' term | expr '-' term | term
+term: term '*' factor | term '/' factor | term '%' factor | factor
+factor: var_name | const_value | '(' expr ')'</p></li></ol> <h1 id="other-rules"><span id="other-rules" class="anchor"></span><a href="#other-rules"></a>Other Rules<a href="#other-rules" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <p>A syntactically valid source program written in SIMPLE is semantically invalid if it violates rules that cannot be captured by the CSG.</p> <p><strong>The following are rules that cannot be captured by CSG:</strong></p> <ol><li>A program cannot have two procedures with the same name.</li> <li>A procedure cannot call a non-existing procedure.</li> <li>Recursive and cyclic calls are not allowed.
+<ul><li>E.g. Procedure A calls procedure B, procedure B calls procedure C, and procedure C calls procedure A.</li> <li>E.g. Procedure A calls procedure A.</li></ul></li></ol> <h1 id="statement-numbers"><span id="statement-numbers" class="anchor"></span><a href="#statement-numbers"></a>Statement Numbers<a href="#statement-numbers" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <p>The statements in a SIMPLE program are indexed for easy referencing and are not part of the syntax. The first statement in the program located in the first procedure of the program is statement number 1 (stmt #1). The numbering continues from one procedure to the next.</p> <p>The procedure definition does not receive an index. Furthermore, empty lines, <code class="line-numbers hljs inline no-lang">else</code> keywords on a line, curly brackets on a line do not receive an index.</p> <p>An example of how statements are numbered is shown in <a href="#code-4-program-with-multiple-procedures">Code 4</a>.</p> <h1 id="abstract-syntax-grammar-asg"><span id="abstract-syntax-grammar-asg" class="anchor"></span><a href="#abstract-syntax-grammar-asg"></a>Abstract Syntax Grammar (ASG)<a href="#abstract-syntax-grammar-asg" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1> <p>A CSG defines the language and its vocabulary. However, you may need to use abstractions to define a language. In that case, the ASG defines the relationships among different abstractions in a language, without defining the exact vocabulary.</p> <p>For example, an expression (non-terminal <code class="line-numbers hljs inline no-lang">expr</code>) in the ASG of SIMPLE may be a <code class="line-numbers hljs inline no-lang">plus</code>, <code class="line-numbers hljs inline no-lang">minus</code>, <code class="line-numbers hljs inline no-lang">times</code>, <code class="line-numbers hljs inline no-lang">div</code>, or <code class="line-numbers hljs inline no-lang">mod</code> expression or a reference (non-terminal <code class="line-numbers hljs inline no-lang">ref</code>).</p> <p>There can be multiple CSGs for the same ASG.</p> <p><strong>Meta symbols:</strong></p> <pre><code class="line-numbers">a+        - repetition 1 or more times of a
+a | b     - a or b
+</code></pre> <p><strong>Lexical tokens:</strong></p> <pre><code class="line-numbers">LETTER: A-Z | a-z               - capital or small letter
+DIGIT: 0-9
+NZDIGIT: 1-9
+NAME: LETTER (LETTER | DIGIT)*
+INTEGER: 0 | NZDIGIT ( DIGIT )*
+</code></pre> <p><strong>Grammar rules:</strong></p> <pre><code class="line-numbers">program: procedure+
+procedure: stmtLst
+stmtLst: stmt+
+stmt: read | print | call | while | if | assign
+
+read, print: variable
+while: cond_expr stmtLst
+if: cond_expr  stmtLst stmtLst
+assign: variable expr
+
+cond_expr: rel_expr | not | and | or
+not: cond_expr
+and, or: cond_expr cond_expr
+
+rel_expr: gt | gte | lt | lte | eq | neq
+gt, gte, lt, lte, eq, neq: rel_factor rel_factor
+rel_factor: variable | constant | expr
+
+expr: plus | minus | times | div | mod | ref
+plus, minus, times, div, mod: expr expr
+
+ref: variable | constant
+</code></pre> <p><strong>Attributes and value types:</strong></p> <pre><code class="line-numbers">procedure.procName, call.procName, variable.varName, read.varName, print.varName: NAME
+constant.value: INTEGER
+stmt.stmt#, read.stmt#, print.stmt#, call.stmt#, while.stmt#, if.stmt#, assign.stmt#: INTEGER
+</code></pre> <i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88><a class="navbar-brand page-nav-title" href="#" data-v-e8c82f88>Chapters of This Page</a> <nav id="mb-page-nav" class="nav nav-pills flex-column my-0 small no-flex-wrap" data-v-e8c82f88><a class="nav-link py-1" href="#simple-programming-language" data-v-e8c82f88>SIMPLE Programming Language‎</a> <a class="nav-link py-1" href="#general-information" data-v-e8c82f88>General Information‎</a> <a class="nav-link py-1" href="#concrete-syntax-grammar-csg" data-v-e8c82f88>Concrete Syntax Grammar (CSG)‎</a> <a class="nav-link py-1" href="#other-rules" data-v-e8c82f88>Other Rules‎</a> <a class="nav-link py-1" href="#statement-numbers" data-v-e8c82f88>Statement Numbers‎</a> <a class="nav-link py-1" href="#abstract-syntax-grammar-asg" data-v-e8c82f88>Abstract Syntax Grammar (ASG)‎</a> <!----></nav></div> <!----></nav></div> <footer><div class="text-center"><small>[Generated by <a href="https://markbind.org/">MarkBind 4.0.2</a>]</small></div></footer></div>
 </body><script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   MarkBind.setupWithSearch()
