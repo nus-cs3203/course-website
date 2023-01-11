@@ -380,7 +380,8 @@
       "src": "contents/team-formation.md",
       "title": "",
       "headings": {
-        "team-formation": "Team Formation"
+        "team-formation": "Team Formation",
+        "notes": "Notes"
       },
       "headingKeywords": {}
     },
@@ -523,19 +524,7 @@
       "title": "",
       "headings": {
         "update-history": "Update History",
-        "11-oct-2022": "11 Oct 2022",
-        "4-oct-2022": "4 Oct 2022",
-        "28-sep-2022": "28 Sep 2022",
-        "27-sep-2022": "27 Sep 2022",
-        "9-sep-2022": "9 Sep 2022",
-        "7-sep-2022-ii": "7 Sep 2022 II",
-        "7-sep-2022-i": "7 Sep 2022 I",
-        "3-aug-2022": "3 Aug 2022",
-        "2-aug-2022-iii": "2 Aug 2022 III",
-        "2-aug-2022-ii": "2 Aug 2022 II",
-        "2-aug-2022-i": "2 Aug 2022 I",
-        "2-aug-2022": "2 Aug 2022",
-        "30-jul-2022": "30 Jul 2022"
+        "12-jan-2023": "12 Jan 2023"
       },
       "headingKeywords": {}
     },
