@@ -13,7 +13,7 @@
   </div>
 </div>
 
-# Welcome to the project wiki for CS3203
+# Welcome to the Project Wiki for CS3203
 
 In this wiki, you will be able to find all the information / resources related to the CS3203 project.
 

@@ -33,7 +33,7 @@
       <site-nav>
 * [Home :house:]({{ baseUrl }}/index.html)
 * [Update History]({{baseUrl}}/contents/update-history.html)
-* [Team Formation]({{baseUrl}}/contents/team.html)
+* [Team Formation]({{baseUrl}}/contents/team-formation.html)
 * Tools :expanded:
   * [Introduction]({{baseUrl}}/contents/tools/introduction.html)
   * [Downloads]({{baseUrl}}/contents/tools/downloads.html)
