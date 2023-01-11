@@ -10,7 +10,7 @@
 
 This page provides the links to the project-related files.
 
-For the downloading and installing of software and packages (e.g. Visual Studio 2019, QT), please refer to the guide specific to each startup solution in the Wiki.
+For the downloading and installing of software and packages (e.g. Visual Studio 2019), please refer to the guide specific to each startup solution in the Wiki.
 
 The file packages for each start up solution are mainly for you to try out and decide which one your team will use. They will be available in the GitHub repository provided as described in <a href = "https://github.com/nus-cs3203/project-wiki/wiki/Version-Control-System-and-Code-Repository" target="_blank">Version Control System and Repository.</a>
 

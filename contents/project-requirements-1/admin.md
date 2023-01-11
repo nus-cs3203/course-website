@@ -9,17 +9,17 @@
 [](#deadlines)Deadlines
 =======================
 
-Code Submission Deadline: **19 Sep (Recess Mon), 2pm**
+Code Submission Deadline: **20 Feb (Recess Mon), 2pm**
 
-*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 1% of your module grade)**
-*   Submission after **20 Sep (Recess Tue), 2pm** will not be accepted, and no marks will be awarded.
+*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 1.6% of your module grade)**
+*   Submission after **21 Feb (Recess Tue), 2pm** will not be accepted, and no marks will be awarded.
 
 You may be contacted to fix your code within the time stipulated after the deadline if there are any issues during testing of your system.
 
-Report Submission Deadline: **21 Sep (Recess Wed), 2pm**
+Report Submission Deadline: **20 Feb (Recess Mon), 2pm**
 
-*   Penalty for late submission within 24 hours: **10% of the maximum score (i.e. 0.5% of your module grade)**
-*   Submission after **22 Sep (Recess Thu), 2pm** will not be accepted, and no marks will be awarded.
+*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 0.8% of your module grade)**
+*   Submission after **21 Feb (Recess Thu), 2pm** will not be accepted, and no marks will be awarded.
 
 Do refer to:
 
@@ -29,12 +29,11 @@ Do refer to:
 [](#marking-scheme)Marking Scheme
 =================================
 
-Milestone 1 accounts for **10%** of the final grade.
+Milestone 1 accounts for **12%** of the final grade.
 
 *   **5%**: [Correctness](../project-requirement-guidelines/gg.html#spa-correctness-grading) based on AutoTester evaluation
-*   **5%**: [Report](../project-requirement-guidelines/gg.html#spa-correctness-grading)
-*   **0%**: SWE practices used by team
-    *   Feedback will be given via code review and weekly reviews by tutors.
+*   **4%**: [Report](../project-requirement-guidelines/gg.html#spa-correctness-grading)
+*   **3%**: SWE practices used by team via [Code Review](../project-requirement-guidelines/gg.html#code-review).
 
 Individual penalty / bonus is possible if someone in the team is making very little / a lot of contributions.
 

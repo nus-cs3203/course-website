@@ -21,17 +21,12 @@ For CS3203, we recommend the following tools:
 
 There will be an optional tools lab in Week 2 to help you resolve any technical issues related to the tools.
 
-Sign up and attend only if you require assistance after trying to install the tools through following instructions in GitHub Wiki.
+Attend only if you require assistance after trying to install the tools through following instructions in GitHub Wiki.
 
-You can choose to join via Zoom meetings, or physical labs.
+* [F2F @ SR1] 20 Jan (Week 2 Fri), 10am-1pm
 
-Tuesday slots:
+***Some level of troubleshooting should have been done together with Tzerbin before the session, either through email or Zoom sessions by appointment.***
 
-* [F2F @ SR3] 16 Aug (Week 2 Tue), 10am-12nn
-* [F2F @ SR3] 16 Aug (Week 2 Tue), 2pm-4pm
+***Assistance will be prioritized for students who has attempted following instructions through the Wiki.***
 
-Friday slots:
-
-* [F2F @ SR3 / Zoom] 19 Aug (Week 2 Fri), 10am-12nn (By appointment only)
-
-Some level of troubleshooting should have been done together with Tzerbin before the Friday session. Please speak to Tzerbin before 18 Aug (Week 2 Thu) 2pm if you wish to attend the Friday session.
+***Due to time constraints, you should discuss with your teammates on the choice of startup solution first, before attempting setting up.***
