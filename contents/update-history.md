@@ -9,6 +9,12 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#16-jan-2023)16 Jan 2023
+---------------------------
+
+* Fixed deadlines in [Version Control System and Code Repository](tools/version-control-repository.html).
+
+
 [](#12-jan-2023)12 Jan 2023
 ---------------------------
 
