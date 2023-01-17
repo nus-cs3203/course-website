@@ -443,7 +443,6 @@
         "windows": "Windows",
         "cross-platform": "Cross-platform",
         "tools-lab-slides": "Tools Lab Slides",
-        "sample-simple-source-program": "Sample SIMPLE Source Program",
         "python-script-check-submission-py": "Python Script check-submission.py"
       },
       "headingKeywords": {}
@@ -525,6 +524,7 @@
       "headings": {
         "update-history": "Update History",
         "16-jan-2023": "16 Jan 2023",
+        "16-jan-2023-2": "16 Jan 2023",
         "12-jan-2023": "12 Jan 2023"
       },
       "headingKeywords": {}
