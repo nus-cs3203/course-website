@@ -12,6 +12,13 @@
 [](#16-jan-2023)16 Jan 2023
 ---------------------------
 
+* Fixed various hyperlink issues in Tools.
+
+* Update [Project Management](tools/project-management.html) with sprint dates and project release plan specific to AY22/23 Semester 2.
+
+[](#16-jan-2023)16 Jan 2023
+---------------------------
+
 * Fixed deadlines in [Version Control System and Code Repository](tools/version-control-repository.html).
 
 

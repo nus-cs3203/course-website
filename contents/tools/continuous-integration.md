@@ -53,11 +53,11 @@ As there are limits for GitHub Actions usage for organizations, and there is cur
 
 The following are sample workflows that you can use for Github Actions.
 
-[Workflow for building on Windows CMake solution](https://github.com/nus-cs3203/project-wiki/blob/main/github-actions-yml-files/build-cp-windows.yml)
+[Workflow for building on Windows CMake solution](../../github-actions-yml-files/build-cp-windows.yml)
 
-[Workflow for building on MacOS](https://github.com/nus-cs3203/project-wiki/blob/main/github-actions-yml-files/build-cp-mac.yml)
+[Workflow for building on MacOS](../../github-actions-yml-files/build-cp-mac.yml)
 
-[Workflow for building on Linux](https://github.com/nus-cs3203/project-wiki/blob/main/github-actions-yml-files/build-cp-linux.yml)
+[Workflow for building on Linux](../../github-actions-yml-files/build-cp-linux.yml)
 
 **Notes:**
 

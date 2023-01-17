@@ -16,4 +16,4 @@ The team leader of each team should complete the quiz in Canvas to indicate the 
 
 We will proceed to send you a GitHub Classroom invite to set up your GitHub repository.  
 The GitHub repository contains the chosen startup solution for the team.  
-Please note that the repository will contain the same files as what is given in [Downloads](Downloads).
+Please note that the repository will contain the same files as what is given in [Downloads](../tools/downloads.html).

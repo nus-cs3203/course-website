@@ -48,39 +48,39 @@ If you use JIRA Cloud, make sure that your lecturer, TA and tutor for your team 
 [](#3-project-release-plan-for-ay2223-semester-1)3\. Project Release Plan (for AY22/23 Semester 1)
 ==================================================================================================
 
-![project-release-plan-2210](images/2210-project-release-plan.PNG)
+![project-release-plan-2210](../../images/project-release-plan.PNG)
 
 [](#4-important-dates)4\. Important Dates
 =========================================
 
 | Type        | Sprint   | Start Date | End Date | No. of days | Expected Delivery                                                    |
 |-------------|----------|------------|----------|-------------|----------------------------------------------------------------------|
-|             | Sprint 0 | 16 Aug     | 24 Aug   | 8           | Understand more about SPA, your teammates, and identify user stories |
-|             | Sprint 1 | 25 Aug     | 6 Sep    | 12          | Demo with tutor during consultation                                  |
-| Milestone 1 | Sprint 2 | 7 Sep      | 19 Sep   | 12          | Code submission                                                      |
-|             | Sprint 3 | 20 Sep     | 4 Oct    | 14          | Demo with tutor during consultation                                  |
-| Milestone 2 | Sprint 4 | 5 Oct      | 17 Oct   | 13          | Oral Presentation, demo with tutor during consultation               |
-|             | Sprint 5 | 19 Oct     | 31 Oct   | 12          | Feature freeze; only testing and bug fixing after this               |
-| Milestone 3 | Release  | 1 Nov      | 7 Nov    | 6           | Final submission, presentation                                       |
+|             | Sprint 0 | 17 Jan     | 24 Jan   | 08          | Understand more about SPA, your teammates, and identify user stories |
+|             | Sprint 1 | 25 Jan     | 07 Feb   | 14          | Demo with tutor during consultation                                  |
+| Milestone 1 | Sprint 2 | 08 Feb     | 20 Feb   | 13          | Code submission                                                      |
+|             | Sprint 3 | 21 Feb     | 07 Mar   | 15          | Demo with tutor during consultation                                  |
+| Milestone 2 | Sprint 4 | 08 Mar     | 20 Mar   | 13          | Oral Presentation, demo with tutor during consultation               |
+|             | Sprint 5 | 21 Mar     | 04 Apr   | 15          | Feature freeze; only testing and bug fixing after this               |
+| Milestone 3 | Release  | 05 Apr     | 10 Apr   | 06           | Final submission, presentation                                       |
 
 **Notes:**
 
 1.  Each sprint lasts for roughly two weeks.
-    
+
     *   Exception: Sprint 0, Release sprint
 2.  Sprint 2, 4 and Release Sprints are major milestones.
-    
+
 3.  Feature freeze should happen one week before final submission at the end of Sprint 5.
-    
+
     *   After that, only testing and bug fixing should be done, and there should be minimal code changes.
 4.  Every sprint must have:
-    
+
     *   Sprint planning (on the first day of sprint, 1 hour)
     *   Sprint Review (on the last day of sprint aligned with consultations / evaluations / presentations)
     *   Sprint Retrospective (immediately after sprint review before next planning, 30 minutes)
     *   Standup (twice a week, one during project consultation with tutor and one done internally 3-4 days after consultation, 15 minutes each)
 5.  At any point in time, PM tools should show latest status of tasks.
-    
+
 
 [](#5-references)5\. References
 ===============================
