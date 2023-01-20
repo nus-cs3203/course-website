@@ -19,13 +19,13 @@ Several sample programs that can be written in SIMPLE are shown below:
         read num1;
         read num2;
         read num3;
-    
+
         sum = num1 + num2 + num3;
         ave = sum / 3;
-    
+
         print ave;
     }
-    
+
 
 ##### [](#code-2-print-numbers-in-ascending-order)Code 2: Print numbers in ascending order
 
@@ -33,7 +33,7 @@ Several sample programs that can be written in SIMPLE are shown below:
         read num1;
         read num2;
         noSwap = 0;
-    
+
         if (num1 > num2) then {
           temp = num1;
           num1 = num2;
@@ -41,28 +41,28 @@ Several sample programs that can be written in SIMPLE are shown below:
         } else {
           noSwap = 1;
         }
-    
+
         print num1;
         print num2;
         print noSwap;
     }
-    
+
 
 ##### [](#code-3-compute-the-sum-of-the-digits-of-an-integer)Code 3: Compute the sum of the digits of an integer
 
     procedure sumDigits {
         read number;
         sum = 0;
-    
+
         while (number > 0) {
             digit = number % 10;
             sum = sum + digit;
             number = number / 10;
         }
-    
+
         print sum;
     }
-    
+
 
 ##### [](#code-4-program-with-multiple-procedures)Code 4: Program with multiple procedures
 
@@ -100,7 +100,7 @@ Several sample programs that can be written in SIMPLE are shown below:
             }
     23      normSq = cenX * cenX + cenY * cenY;
         }
-    
+
 
 [](#general-information)General Information
 ===========================================
@@ -158,7 +158,7 @@ For example, the grammar for SIMPLE starts with a non-terminal `program`. A prog
     a+        - repetition 1 or more times of a
     a | b     - a or b
     Brackets ( and ) are used for grouping
-    
+
 
 **Lexical tokens:**
 
@@ -168,7 +168,7 @@ For example, the grammar for SIMPLE starts with a non-terminal `program`. A prog
     NAME: LETTER (LETTER | DIGIT)*   - procedure names and variables are strings of
                                        letters, and digits, starting with a letter
     INTEGER : 0 | NZDIGIT ( DIGIT )*      - Constants are sequence of digits with no leading zero
-    
+
 
 **Grammar rules:**
 
@@ -176,30 +176,30 @@ For example, the grammar for SIMPLE starts with a non-terminal `program`. A prog
     procedure: 'procedure' proc_name '{' stmtLst '}'
     stmtLst: stmt+
     stmt: read | print | call | while | if | assign
-    
+
     read: 'read' var_name';'
     print: 'print' var_name';'
     call: 'call' proc_name';'
     while: 'while' '(' cond_expr ')' '{' stmtLst '}'
     if: 'if' '(' cond_expr ')' 'then' '{' stmtLst '}' 'else' '{' stmtLst '}'
     assign: var_name '=' expr ';'
-    
+
     cond_expr: rel_expr | '!' '(' cond_expr ')' |
                '(' cond_expr ')' '&&' '(' cond_expr ')' |
                '(' cond_expr ')' '||' '(' cond_expr ')'
-    
+
     rel_expr: rel_factor '>' rel_factor | rel_factor '>=' rel_factor |
               rel_factor '<' rel_factor | rel_factor '<=' rel_factor |
               rel_factor '==' rel_factor | rel_factor '!=' rel_factor
-    
+
     rel_factor: var_name | const_value | expr
     expr: expr '+' term | expr '-' term | term
     term: term '*' factor | term '/' factor | term '%' factor | factor
     factor: var_name | const_value | '(' expr ')'
-    
+
     var_name, proc_name: NAME
     const_value: INTEGER
-    
+
 
 **Note:**
 
@@ -217,7 +217,7 @@ For example, the grammar for SIMPLE starts with a non-terminal `program`. A prog
     expr: expr '+' term | expr '-' term | term
     term: term '*' factor | term '/' factor | term '%' factor | factor
     factor: var_name | const_value | '(' expr ')'
-    
+
 
 [](#other-rules)Other Rules
 ===========================
@@ -254,7 +254,7 @@ There can be multiple CSGs for the same ASG.
 
     a+        - repetition 1 or more times of a
     a | b     - a or b
-    
+
 
 **Lexical tokens:**
 
@@ -263,7 +263,7 @@ There can be multiple CSGs for the same ASG.
     NZDIGIT: 1-9
     NAME: LETTER (LETTER | DIGIT)*
     INTEGER: 0 | NZDIGIT ( DIGIT )*
-    
+
 
 **Grammar rules:**
 
@@ -271,25 +271,25 @@ There can be multiple CSGs for the same ASG.
     procedure: stmtLst
     stmtLst: stmt+
     stmt: read | print | call | while | if | assign
-    
+
     read, print: variable
     while: cond_expr stmtLst
     if: cond_expr  stmtLst stmtLst
     assign: variable expr
-    
+
     cond_expr: rel_expr | not | and | or
     not: cond_expr
     and, or: cond_expr cond_expr
-    
+
     rel_expr: gt | gte | lt | lte | eq | neq
     gt, gte, lt, lte, eq, neq: rel_factor rel_factor
     rel_factor: variable | constant | expr
-    
+
     expr: plus | minus | times | div | mod | ref
     plus, minus, times, div, mod: expr expr
-    
+
     ref: variable | constant
-    
+
 
 **Attributes and value types:**
 

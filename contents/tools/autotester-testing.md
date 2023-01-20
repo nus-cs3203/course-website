@@ -81,7 +81,7 @@ When you implements `virtual void evaluate(std::string query, std::list<std::str
 [](#14-output-xml)1.4 Output XML
 --------------------------------
 
-![Output XML](images/fig19.png)
+![Output XML](../../images/fig19.png)
 
 The AutoTester will compare the results returned by your SPA with the expected results shown in the file and decide if the query passed (total match) or failed (results are not matched). Once the testing is completed, an XML file is generated and you can view the results by opening the file using a browser (shown above).
 
@@ -164,9 +164,9 @@ Unit and Integration Testing in handled differently on Visual Studio and CMake, 
 
 We have included some code stubs to start you off; screenshots are shown below for both project types. Fill in the test cases as needed for Unit Testing and Integration Testing.
 
-![Output XML](images/fig20.png)
+![Output XML](../../images/fig20.png)
 
-![Output XML](images/fig21.png)
+![Output XML](../../images/fig21.png)
 
 [](#3-query-timing-histogram)3\. Query Timing Histogram
 =======================================================
