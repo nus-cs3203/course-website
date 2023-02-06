@@ -9,7 +9,14 @@
 [](#update-history)**Update History**
 =====================================
 
-[](#16-jan-2023)20 Jan 2023
+[](#06-feb-2023)06 Feb 2023
+---------------------------
+
+* Updated links towards report submission guidelines, specifically towards templates.
+
+* Updated links towards oral presentation guidelines, specifically towards brief.
+
+[](#20-jan-2023)20 Jan 2023
 ---------------------------
 
 * Fixed various diagram linking issues in the entire wiki.
