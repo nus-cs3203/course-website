@@ -16,6 +16,8 @@
 
 * Updated links towards oral presentation guidelines, specifically towards brief.
 
+* Updated deadline for report in Milestone 1.
+
 [](#20-jan-2023)20 Jan 2023
 ---------------------------
 

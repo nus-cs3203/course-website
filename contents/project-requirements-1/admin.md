@@ -16,10 +16,10 @@ Code Submission Deadline: **20 Feb (Recess Mon), 2pm**
 
 You may be contacted to fix your code within the time stipulated after the deadline if there are any issues during testing of your system.
 
-Report Submission Deadline: **20 Feb (Recess Mon), 2pm**
+Report Submission Deadline: **22 Feb (Recess Wed), 2pm**
 
 *   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 0.8% of your module grade)**
-*   Submission after **21 Feb (Recess Thu), 2pm** will not be accepted, and no marks will be awarded.
+*   Submission after **23 Feb (Recess Thu), 2pm** will not be accepted, and no marks will be awarded.
 
 Do refer to:
 
