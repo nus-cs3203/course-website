@@ -9,6 +9,11 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#12-feb-2023)12 Feb 2023
+---------------------------
+
+* Included Advanced SPA Requirements in the Wiki.
+
 [](#06-feb-2023)06 Feb 2023
 ---------------------------
 
