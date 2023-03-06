@@ -9,6 +9,15 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#06-mar-2023)06 Mar 2023
+---------------------------
+
+* Updated broken link to CFG example in Advanced SPA Requirements.
+
+* Updated PQL grammar rules in all requirements to include syn-assign, syn-if, syn-while to avoid confusion. Requirements remains the same.
+
+* Updated semantic rules in Advanced SPA requirements with regards to attrRef within with-clauses.
+
 [](#21-feb-2023)21 Feb 2023
 ---------------------------
 

@@ -34,7 +34,7 @@ A query written in PQL is syntactically valid if it follows all the defined lang
     a+        - repetition 1 or more times of a
     [ a ]     - repetition 0 or one occurrence of 'a'
     a | b     - a or b
-    
+
 
 **Lexical tokens:**
 
@@ -44,78 +44,81 @@ A query written in PQL is syntactically valid if it follows all the defined lang
     IDENT : LETTER ( LETTER | DIGIT )*
     NAME : LETTER ( LETTER | DIGIT )*
     INTEGER : 0 | NZDIGIT ( DIGIT )*      - no leading zero [Updated: 27th Feb]
-    
+
     synonym : IDENT
     stmtRef : synonym | '_' | INTEGER
     entRef : synonym | '_' | '"' IDENT '"'
-    
+
     elem : synonym | attrRef
     attrName : 'procName'| 'varName' | 'value' | 'stmt#'
     design-entity : 'stmt' | 'read' | 'print' | 'call' | 'while' | 'if' | 'assign' |
                     'variable' | 'constant' | 'procedure'
-    
+
 
 **Grammar rules:**
 
     select-cl : declaration* 'Select' result-cl ( suchthat-cl | pattern-cl | with-cl)*
     declaration : design-entity synonym (',' synonym)* ';'
-    
+
     result-cl : tuple | 'BOOLEAN'
     tuple : elem | '<' elem ( ',' elem )* '>'
-    
-    
+
+
     suchthat-cl : 'such' 'that' relCond
     pattern-cl : 'pattern' patternCond
     with-cl : 'with' attrCond
-    
+
     relCond : relRef ( 'and' relRef )*
     relRef: Follows | FollowsT | Parent | ParentT | UsesS | UsesP | ModifiesS |
             ModifiesP | Calls | CallsT | Next | NextT | Affects | AffectsT
-    
+
     Follows : 'Follows' '(' stmtRef ',' stmtRef ')'
     FollowsT : 'Follows*' '(' stmtRef ',' stmtRef ')'
-    
+
     Parent : 'Parent' '(' stmtRef ',' stmtRef ')'
     ParentT : 'Parent*' '(' stmtRef ',' stmtRef ')'
-    
+
     UsesS : 'Uses' '(' stmtRef ',' entRef ')'
     UsesP : 'Uses' '(' entRef ',' entRef ')'
-    
+
     ModifiesS : 'Modifies' '(' stmtRef ',' entRef ')'
     ModifiesP : 'Modifies' '(' entRef ',' entRef ')'
-    
+
     Calls : 'Calls' '(' entRef ',' entRef ')'
     CallsT : 'Calls*' '(' entRef ',' entRef ')'
-    
+
     Next : 'Next' '(' stmtRef ',' stmtRef ')'
     NextT : 'Next*' '(' stmtRef ',' stmtRef ')'
-    
+
     Affects : 'Affects' '(' stmtRef ',' stmtRef ')'
     AffectsT : 'Affects*' '(' stmtRef ',' stmtRef ')'
-    
-    
+
+
     patternCond : pattern ( 'and' pattern )*
     pattern : assign | while | if
-    
+
     assign: syn-assign '(' entRef ',' expression-spec ')'
     expression-spec :  '"' expr'"' | '_' '"' expr '"' '_' | '_'
-    
+
     expr: expr '+' term | expr '-' term | term
     term: term '*' factor | term '/' factor | term '%' factor | factor
     factor: var_name | const_value | '(' expr ')'
-    
+
     var_name: NAME
     const_value : INTEGER
-    
+
     while : syn-while '(' entRef ',' '_' ')'
     if : syn-if '(' entRef ',' '_' ',' '_' ')'
-    
-    
+
+    syn-assign : IDENT
+    syn-while : IDENT
+    syn-if : IDENT
+
     attrCond : attrCompare ( 'and' attrCompare )*
     attrCompare : ref '=' ref
     ref : '"' IDENT '"' | INTEGER | attrRef
     attrRef : synonym '.' attrName
-    
+
 
 **Notes:**
 
@@ -137,7 +140,8 @@ A syntactically valid query is semantically invalid if it violates rules that ca
 1.  Rules stated in [Basic SPA requirements](..\basic-spa-requirements\program-query-language\introduction.html#other-rules) still holds.
 2.  `syn-while` must be declared as a synonym of an while-statement (design entity `while`).
 3.  `syn-if` must be declared as a synonym of an if-statement (design entity `if`).
-4.  For `attrCompare`, the two `ref` comparison must be of the same type (both `NAME`, or both `INTEGER`)
+4.  For `attrCompare`, the two `ref` comparison must be of the same type (both `NAME`, or both `INTEGER`).
+5.  For `attrRef`, the `attrName` must be of acceptable attribute of `synonym` as stated in [With Clause Discussion](.\PQL\with-clauses.html).
 
 In addition, if `BOOLEAN` is declared as a synonym in a PQL query, this declaration takes _precedence_, i.e. we can no longer get a boolean query result for that PQL query.
 

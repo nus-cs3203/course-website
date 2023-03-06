@@ -27,7 +27,7 @@ For simplicity, procedures `First` and `Third` are excluded from statement numbe
           read x;
           read z;
           call Second; }
-    
+
           procedure Second {
     01        x = 0;
     02        i = 5;
@@ -42,25 +42,25 @@ For simplicity, procedures `First` and `Third` are excluded from statement numbe
     10        z = z + x + i;
     11        y = z + 2;
     12        x = x * y + z; }
-    
+
           procedure Third {
               z = 5;
               v = z;
               print v; }
-    
+
 
 ###### [](#figure-5-cfg-for-procedure-second-in-code-6)Figure 5: CFG for procedure Second in [Code 6](#code-6)
 
-![figure-17](https://raw.githubusercontent.com/wiki/nus-cs3203/project-wiki/images/fig17.png)
+![figure-17](../../images/fig17.PNG)
 
 Do note that:
 
 1.  There is one CFG per procedure.
-    
+
 2.  The while statement (head) should be in a separate node from other statements in the loop (body).
-    
+
 3.  Dummy nodes can be used (but not excessively) to show that
-    
+
     *   if statements in the CFG have a diamond shape
     *   while loops have a loop shape
     *   procedure ends

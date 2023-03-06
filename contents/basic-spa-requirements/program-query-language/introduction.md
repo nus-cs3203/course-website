@@ -48,7 +48,7 @@ A query written in PQL is syntactically valid if it follows all the defined lang
     a+        - repetition 1 or more times of a
     [ a ]     - repetition 0 or one occurrence of 'a'
     a | b     - a or b
-    
+
 
 **Lexical tokens:**
 
@@ -58,11 +58,11 @@ A query written in PQL is syntactically valid if it follows all the defined lang
     IDENT : LETTER ( LETTER | DIGIT )*
     NAME : LETTER ( LETTER | DIGIT )*
     INTEGER : 0 | NZDIGIT ( DIGIT )*      - no leading zero
-    
+
     synonym : IDENT
     stmtRef : synonym | '_' | INTEGER
     entRef : synonym | '_' | '"' IDENT '"'
-    
+
 
 **Grammar rules:**
 
@@ -70,32 +70,34 @@ A query written in PQL is syntactically valid if it follows all the defined lang
     declaration : design-entity synonym (',' synonym)* ';'
     design-entity : 'stmt' | 'read' | 'print' | 'call' | 'while' |
                     'if' | 'assign' | 'variable' | 'constant' | 'procedure'
-    
+
     suchthat-cl : 'such' 'that' relRef
     relRef : Follows | FollowsT | Parent | ParentT | UsesS | UsesP | ModifiesS | ModifiesP
-    
+
     Follows : 'Follows' '(' stmtRef ',' stmtRef ')'
     FollowsT : 'Follows*' '(' stmtRef ',' stmtRef ')'
-    
+
     Parent : 'Parent' '(' stmtRef ',' stmtRef ')'
     ParentT : 'Parent*' '(' stmtRef ',' stmtRef ')'
-    
+
     UsesS : 'Uses' '(' stmtRef ',' entRef ')'
     UsesP : 'Uses' '(' entRef ',' entRef ')'
-    
+
     ModifiesS : 'Modifies' '(' stmtRef ',' entRef ')'
     ModifiesP : 'Modifies' '(' entRef ',' entRef ')'
-    
+
     pattern-cl : 'pattern' syn-assign '(' entRef ',' expression-spec ')'
     expression-spec :  '"' expr'"' | '_' '"' expr '"' '_' | '_'
-    
+
     expr: expr '+' term | expr '-' term | term
     term: term '*' factor | term '/' factor | term '%' factor | factor
     factor: var_name | const_value | '(' expr ')'
-    
+
+    syn-assign : IDENT
+
     var_name: NAME
     const_value : INTEGER
-    
+
 
 **Notes:**
 
