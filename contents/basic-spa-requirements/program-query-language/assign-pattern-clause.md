@@ -35,13 +35,13 @@ The evaluation of the following queries would result in:
 |-------------------------------------------------|:-------:|-----------------------------------------------------------------|
 | Select a pattern a ( _ , "v + x * y + z * t")   | 1       | Exact pattern match                                             |
 | Select a pattern a ( _ , "v")                   | none    | stmt #1 contains other expression terms other than v            |
-| Select a pattern a ( _ , _"v"_)                 | 1       | stmt #1 contains v as part of the expression on the RHS         |
-| Select a pattern a ( _ , _"x*y"_)               | 1       | stmt #1 contains x*y as a term on the RHS                       |
-| Select a pattern a ( _ , _"v+x"_)               | none    | stmt #1 does not contain v+x as a sub-expression on the RHS     |
-| Select a pattern a ( _ , _"v+x*y"_)             | 1       | stmt #1 contains v+x*y as a sub-expression on the RHS           |
-| Select a pattern a ( _ , _"y+z*t"_)             | none    | stmt #1 does not contain y+z*t as a sub-expression on the RHS   |
-| Select a pattern a ( _, _"x * y + z * t"_)      | none    | stmt #1 does not contain x*y+z*t as a sub-expression on the RHS |
-| Select a pattern a ( _ , _"v + x * y + z * t"_) | 1       | stmt #1 contains v+x*y+z*t as a sub-expression on the RHS       |
+| Select a pattern a ( _ , \_"v"\_)                 | 1       | stmt #1 contains v as part of the expression on the RHS         |
+| Select a pattern a ( _ , \_"x*y"\_)               | 1       | stmt #1 contains x*y as a term on the RHS                       |
+| Select a pattern a ( _ , \_"v+x"\_)               | none    | stmt #1 does not contain v+x as a sub-expression on the RHS     |
+| Select a pattern a ( _ , \_"v+x*y"\_)             | 1       | stmt #1 contains v+x*y as a sub-expression on the RHS           |
+| Select a pattern a ( _ , \_"y+z*t"\_)             | none    | stmt #1 does not contain y+z*t as a sub-expression on the RHS   |
+| Select a pattern a ( _ , \_"x * y + z * t"\_)      | none    | stmt #1 does not contain x*y+z*t as a sub-expression on the RHS |
+| Select a pattern a ( _ , \_"v + x * y + z * t"\_) | 1       | stmt #1 contains v+x*y+z*t as a sub-expression on the RHS       |
 
 All sub-expressions in pattern matching an expression are sub-trees in the AST.
 

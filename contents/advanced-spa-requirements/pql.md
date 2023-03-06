@@ -19,7 +19,7 @@ Queries now contain:
     *   **\[NEW\]** BOOLEAN value
 *   Any number of **such-that clauses** that constrains the results in terms of relationships
 *   Any number of **pattern clauses** that constrains results in terms of syntactic patterns
-*   **\[NEW\]** Any number of **with clauses** that constrains results in terms of [attribute values](..\basic-spa-requirements\simple-programming.html#abstract-syntax-grammar-asg)
+*   **\[NEW\]** Any number of **with clauses** that constrains results in terms of [attribute values](PQL/with-clauses.html)
 
 There is an implicit `and` operator between clauses. Query results must make sure that they satisfy all clauses.
 
@@ -141,7 +141,7 @@ A syntactically valid query is semantically invalid if it violates rules that ca
 2.  `syn-while` must be declared as a synonym of an while-statement (design entity `while`).
 3.  `syn-if` must be declared as a synonym of an if-statement (design entity `if`).
 4.  For `attrCompare`, the two `ref` comparison must be of the same type (both `NAME`, or both `INTEGER`).
-5.  For `attrRef`, the `attrName` must be of acceptable attribute of `synonym` as stated in [With Clause Discussion](./PQL/with-clauses.html).
+5.  For `attrRef`, the `attrName` must be of acceptable attribute of `synonym` as stated in [With Clause Discussion](PQL/with-clauses.html).
 
 In addition, if `BOOLEAN` is declared as a synonym in a PQL query, this declaration takes _precedence_, i.e. we can no longer get a boolean query result for that PQL query.
 
