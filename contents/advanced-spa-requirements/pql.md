@@ -137,11 +137,11 @@ A syntactically valid query is semantically invalid if it violates rules that ca
 
 **The following are rules that are not captured by the grammar:**
 
-1.  Rules stated in [Basic SPA requirements](..\basic-spa-requirements\program-query-language\introduction.html#other-rules) still holds.
+1.  Rules stated in [Basic SPA requirements](../basic-spa-requirements/program-query-language/introduction.html#other-rules) still holds.
 2.  `syn-while` must be declared as a synonym of an while-statement (design entity `while`).
 3.  `syn-if` must be declared as a synonym of an if-statement (design entity `if`).
 4.  For `attrCompare`, the two `ref` comparison must be of the same type (both `NAME`, or both `INTEGER`).
-5.  For `attrRef`, the `attrName` must be of acceptable attribute of `synonym` as stated in [With Clause Discussion](.\PQL\with-clauses.html).
+5.  For `attrRef`, the `attrName` must be of acceptable attribute of `synonym` as stated in [With Clause Discussion](./PQL/with-clauses.html).
 
 In addition, if `BOOLEAN` is declared as a synonym in a PQL query, this declaration takes _precedence_, i.e. we can no longer get a boolean query result for that PQL query.
 
