@@ -109,6 +109,7 @@ UsesS : 'Uses' '(' stmtRef ',' entRef ')'
 ModifiesS : 'Modifies' '(' stmtRef ',' entRef ')'
 
 pattern-cl : 'pattern' syn-assign '(' entRef ',' expression-spec ')'
+syn-assign : IDENT
 expression-spec : '_' '&quot;' factor '&quot;' '_' | '_'
 
 factor: var_name | const_value

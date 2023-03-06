@@ -93,6 +93,8 @@ expr: expr '+' term | expr '-' term | term
 term: term '*' factor | term '/' factor | term '%' factor | factor
 factor: var_name | const_value | '(' expr ')'
 
+syn-assign : IDENT
+
 var_name: NAME
 const_value : INTEGER
 </code></pre> <p><strong>Notes:</strong></p> <ol><li>PQL is case-sensitive. The grammar shows the accepted casing for the keywords of the language. Due to case-sensitivity, synonyms &quot;abc&quot; and &quot;Abc&quot; are two different synonyms.</li> <li>Whitespaces (including multiple spaces, tabs, or no spaces) can be used freely in PQL. For example, tokenizer should recognize three tokens <code class="line-numbers hljs inline no-lang">x</code>, <code class="line-numbers hljs inline no-lang">+</code> and <code class="line-numbers hljs inline no-lang">y</code> in any of the following character streams:
