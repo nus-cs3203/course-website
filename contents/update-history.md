@@ -9,6 +9,12 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#10-mar-2023)10 Mar 2023
+
+* Fixed deadlines to Milestone 2.
+
+* Fixed broken link to oral presentation briefs, which should have led to the module announcements in Canvas.
+
 [](#06-mar-2023)06 Mar 2023
 ---------------------------
 
