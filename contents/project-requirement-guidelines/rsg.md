@@ -29,7 +29,7 @@ The [Project Report Template](https://canvas.nus.edu.sg/courses/38582/files/fold
 [](#tips)Tips
 =============
 
-It is important to make your report clear, concise, complete, standalone and readable.
+It is very important to make your report clear, concise, complete, standalone and readable.
 
 *   Use good examples to illustrate your design.
 
