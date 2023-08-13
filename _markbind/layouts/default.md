@@ -33,6 +33,7 @@
       <site-nav>
 * [Home :house:]({{ baseUrl }}/index.html)
 * [Update History]({{baseUrl}}/contents/update-history.html)
+* [Important Dates]({{baseUrl}}/contents/important-dates.html)
 * [Team Formation]({{baseUrl}}/contents/team-formation.html)
 * Tools :expanded:
   * [Introduction]({{baseUrl}}/contents/tools/introduction.html)
@@ -43,6 +44,7 @@
   * [Version Control System and Code Repository]({{baseUrl}}/contents/tools/version-control-repository.html)
   * [Project Management]({{baseUrl}}/contents/tools/project-management.html)
   * [Continuous Integration]({{baseUrl}}/contents/tools/continuous-integration.html)
+  * [Under Beta - Java Development]({{baseUrl}}/contents/tools/java-development.html)
 * SPA Requirements - Basic SPA :expanded:
   * [Motivation]({{baseUrl}}/contents/basic-spa-requirements/motivation.html)
   * [SIMPLE Programming Language]({{baseUrl}}/contents/basic-spa-requirements/simple-programming.html)
@@ -57,6 +59,7 @@
     * [Example queries]({{baseUrl}}/contents/basic-spa-requirements/program-query-language/example-queries.html)
   * [Intended Behaviour & Format of Results]({{baseUrl}}/contents/basic-spa-requirements/intended-behaviour-format-results.html)
   * [FAQ]({{baseUrl}}/contents/basic-spa-requirements/faq.html)
+<!--
 * SPA Requirements - Advanced SPA :expanded:
   * [Control Flow Graph]({{baseUrl}}/contents/advanced-spa-requirements/cfg.html)
   * [Design Abstractions]({{baseUrl}}/contents/advanced-spa-requirements/design-abstractions.html)
@@ -69,10 +72,12 @@
     * [Multi Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/multi-clauses.html)
     * [Example Queries]({{baseUrl}}/contents/advanced-spa-requirements/PQL/example-queries.html)
   * [Format of Results]({{baseUrl}}/contents/advanced-spa-requirements/format-res.html)
+-->
 * Project Requirements - Milestone 1 :expanded:
   * [Scope]({{baseUrl}}/contents/project-requirements-1/scope.html)
   * [Administrative Matters]({{baseUrl}}/contents/project-requirements-1/admin.html)
   * [Tips]({{baseUrl}}/contents/project-requirements-1/tips.html)
+<!--
 * Project Requirements - Milestone 2 :expanded:
   * [Scope]({{baseUrl}}/contents/project-requirements-2/scope.html)
   * [Administrative Matters]({{baseUrl}}/contents/project-requirements-2/admin.html)
@@ -80,15 +85,18 @@
 * Project Requirements - Milestone 3 :expanded:
   * [Scope]({{baseUrl}}/contents/project-requirements-3/scope.html)
   * [Administrative Matters]({{baseUrl}}/contents/project-requirements-3/admin.html)
+-->
 * Project Requirements - Guidelines :expanded:
   * Code Submission Guidelines :expanded:
     * [Introduction]({{baseUrl}}/contents/project-requirement-guidelines/csg.html)
     * [Submission Format Checker]({{baseUrl}}/contents/project-requirement-guidelines/sub-format-check.html)
   * [Report Submission Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/rsg.html)
   * [Code Demonstration Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/cdg.html)
-  * [Oral Presentation Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/opg.html)
-  * [Final Presentation Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/fp.html)
   * [Grading Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/gg.html)
+  <!--
+    * [Oral Presentation Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/opg.html)
+    * [Final Presentation Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/fp.html)
+  -->
 * [Reference Books]({{baseUrl}}/contents/reference.html)
       </site-nav>
     </div>
