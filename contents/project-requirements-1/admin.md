@@ -36,4 +36,4 @@ Individual penalty / bonus is possible if someone in the team is making very lit
 *   Please let the teaching team know about such cases through the peer review which will be open right after the deadline.
 *   We will arrange a meeting with your team to discuss about such matters.
 
-**Weightage is subjected to change without prior notice.**
+**Weightage is subjected to change without prior notice. **
