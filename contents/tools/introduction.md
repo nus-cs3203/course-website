@@ -23,7 +23,7 @@ There will be an optional tools lab in Week 2 to help you resolve any technical 
 
 Attend only if you require assistance after trying to install the tools through following instructions in GitHub Wiki.
 
-* [F2F @ SR1] 20 Jan (Week 2 Fri), 10am-1pm
+* Date, Time, Venue will be announced through Canvas.
 
 ***Some level of troubleshooting should have been done together with Tzerbin before the session, either through email or Zoom sessions by appointment.***
 

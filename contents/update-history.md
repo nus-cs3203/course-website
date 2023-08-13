@@ -9,6 +9,18 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#14-aug-2023)14 Aug 2023
+---------------------------
+
+* Added [Important Dates](important-dates.html), and [Under Beta - Java Development](tools/java-development.html) pages.
+
+* Removed dates related to team formation, tools and milestones, to have single source of truth with regards to deadlines.
+
+* Removed visibility for Advanced SPA requirements & Milestone 2 / 3 requirements, which will be released later in the semester.
+
+* Removed visibility for all update history before AY23/24 Semester 1.
+
+<!--
 [](#10-mar-2023)10 Mar 2023
 
 * Fixed deadlines to Milestone 2.
@@ -72,7 +84,7 @@
 
 * Removed visibility for all update history before AY22/23 Semester 2.
 
-<!--
+
 [](#11-oct-2022)11 Oct 2022
 ---------------------------
 

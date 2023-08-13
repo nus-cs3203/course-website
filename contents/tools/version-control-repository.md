@@ -4,7 +4,7 @@
 
 All teams are required to use Git with the GitHub repository provided.
 
-The team leader of each team should complete the quiz in Canvas to indicate the following information by **18 Jan (Week 2 Wed) 2pm**:
+The team leader of each team should complete the quiz in Canvas to indicate the following information by the deadline:
 
 *   The choice of startup solution (Windows or Cross-platform)
 

@@ -41,29 +41,12 @@ This type of methodology is great for teams that value constant improvement, as 
 [](#2-recommended-project-management-tools)2\. Recommended Project Management Tools
 ===================================================================================
 
-We recommend to use either JIRA Cloud or Github Issues.
+We recommend to use either Github Issues or JIRA Cloud.
 
 If you use JIRA Cloud, make sure that your lecturer, TA and tutor for your team are part of the account.
 
-[](#3-project-release-plan-for-ay2223-semester-1)3\. Project Release Plan (for AY22/23 Semester 1)
+[](#3-project-release-plan)3\. Project Release Plan
 ==================================================================================================
-
-![project-release-plan-2210](../../images/project-release-plan.PNG)
-
-[](#4-important-dates)4\. Important Dates
-=========================================
-
-| Type        | Sprint   | Start Date | End Date | No. of days | Expected Delivery                                                    |
-|-------------|----------|------------|----------|-------------|----------------------------------------------------------------------|
-|             | Sprint 0 | 17 Jan     | 24 Jan   | 08          | Understand more about SPA, your teammates, and identify user stories |
-|             | Sprint 1 | 25 Jan     | 07 Feb   | 14          | Demo with tutor during consultation                                  |
-| Milestone 1 | Sprint 2 | 08 Feb     | 20 Feb   | 13          | Code submission                                                      |
-|             | Sprint 3 | 21 Feb     | 07 Mar   | 15          | Demo with tutor during consultation                                  |
-| Milestone 2 | Sprint 4 | 08 Mar     | 20 Mar   | 13          | Oral Presentation, demo with tutor during consultation               |
-|             | Sprint 5 | 21 Mar     | 04 Apr   | 15          | Feature freeze; only testing and bug fixing after this               |
-| Milestone 3 | Release  | 05 Apr     | 10 Apr   | 06           | Final submission, presentation                                       |
-
-**Notes:**
 
 1.  Each sprint lasts for roughly two weeks.
 
@@ -82,7 +65,7 @@ If you use JIRA Cloud, make sure that your lecturer, TA and tutor for your team 
 5.  At any point in time, PM tools should show latest status of tasks.
 
 
-[](#5-references)5\. References
+[](#4-references)4\. References
 ===============================
 
 Introduction details in this page is adapted from: [https://shortcut.com/blog/what-is-software-project-management-4-things-to-know](https://shortcut.com/blog/what-is-software-project-management-4-things-to-know)
