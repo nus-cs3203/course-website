@@ -12,6 +12,11 @@
 [](#14-aug-2023)14 Aug 2023
 ---------------------------
 
+* Updated certain arithmetic expressions in [Basic SPA Requirements > PQL > Assign Pattern Clauses](contents/basic-spa-requirements/program-query-language/assign-pattern-clause.html) to show underscores wherever necessary.
+
+[](#14-aug-2023)14 Aug 2023
+---------------------------
+
 * Added [Important Dates](important-dates.html), and [Under Beta - Java Development](tools/java-development.html) pages.
 
 * Removed dates related to team formation, tools and milestones, to have single source of truth with regards to deadlines.
