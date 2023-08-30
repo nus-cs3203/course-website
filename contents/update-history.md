@@ -9,7 +9,12 @@
 [](#update-history)**Update History**
 =====================================
 
-[](#14-aug-2023)14 Aug 2023
+[](#30-aug-2023)30 Aug 2023
+---------------------------
+
+* Removed rubrics / template links for reports, and direct users to Canvas.
+
+[](#16-aug-2023)16 Aug 2023
 ---------------------------
 
 * Updated certain arithmetic expressions in [Basic SPA Requirements > PQL > Assign Pattern Clauses](contents/basic-spa-requirements/program-query-language/assign-pattern-clause.html) to show underscores wherever necessary.

@@ -20,7 +20,7 @@ Each team should submit only **one** copy of the report. For multiple submission
 [](#report-format)Report Format
 ===============================
 
-The [Project Report Template](https://canvas.nus.edu.sg/courses/38582/files/folder/Project%20Docs) should be used for your submission.
+The Project Report Template should be used for your submission, and is available on Canvas.
 
 **Additional Suggestion**
 

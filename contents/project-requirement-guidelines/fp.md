@@ -24,6 +24,9 @@ The flow of the presentation is as follows:
 [](#presentation-content)Presentation Content
 =============================================
 
+The brief can be found on Canvas when ready.
+
+<!--
 In your presentation, you should make use of your report and cover the following:
 
 1. What are the software engineering principles and practices you and your teammates followed?
@@ -43,3 +46,4 @@ Do not:
 1. Present things we already know from the wiki.
 
 2. Explain the design of every single component unless there is something special.
+-->

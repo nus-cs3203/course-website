@@ -21,9 +21,9 @@ You can assume that integer size used in the test cases will be in the 32-bit un
 Failed test cases are analyzed, and are categorized as unique errors with different severity.
 
 *   E.g. If a system outputs an extra punctuation in the output, which causes multiple test cases to fail, it is still counted as one minor error since it is just an output (but not logical) issue.
-    
+
 *   E.g. If a system goes into an infinite loop for a particular type of queries due to a logical issue, it is counted as one major error.
-    
+
 
 If your implementation does not return answers for a query after **5000ms**, we will assume that your system is stuck in a loop, and the test case will be considered as failed.
 
@@ -70,18 +70,18 @@ The following are the distribution of ratings:
 The report will be graded in accordance to:
 
 1.  High-level description of the system
-    
+
 2.  Design decisions considered and made
-    
+
 3.  Evidence of following good software engineering practices and principles
-    
+
 
 Specifically, it will be graded according to the Report Rubrics/Template, which will be linked once available. .
 
 [](#code-review)Code Review
 ===========================
 
-Your code implementation will be reviewed according to [Code Review Checklist](../../code-review-rubrics/Code-Review-Checklist.pdf).
+Your code implementation will be reviewed according to Code Review Checklist available on Canvas.
 
 [](#other-notes)Other Notes
 ===========================
@@ -89,9 +89,9 @@ Your code implementation will be reviewed according to [Code Review Checklist](.
 The grading process is not mark-for-mark but ranking-based.
 
 *   Having 1 unique error from AutoTester Evaluation or 1 piece of information missing from the report does not directly cause a certain number of marks to be deducted.
-    
+
 *   The issues identified will be used to rank the submissions and the marks will be derived from the ranking.
-    
+
 
 [](#individual-penalty--bonus)Individual Penalty / Bonus
 ========================================================
