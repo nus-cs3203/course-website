@@ -49,7 +49,7 @@ For simplicity, procedures `main`, `readPoint` and `printResults` are excluded f
             }
     14      normSq = cenX * cenX + cenY * cenY;
         }
-    
+
 
 [](#queries-with-no-such-that-and-pattern-clause)Queries with no such-that and pattern clause
 =============================================================================================
@@ -58,7 +58,7 @@ For simplicity, procedures `main`, `readPoint` and `printResults` are excluded f
 
     procedure p;
     Select p
-    
+
 
 The declaration `procedure p` refers to entities of type procedures found in the SIMPLE program that is analyzed. This query returns as a result all the procedures in the program. The results are displayed as a list of procedure names.
 
@@ -70,7 +70,7 @@ The order of the names of the procedures does not matter. Hence, another correct
 
     variable v;
     Select v
-    
+
 
 The query returns all variable names: `flag, count, cenX, cenY, x, y, normSq`
 
@@ -81,7 +81,7 @@ The query returns all variable names: `flag, count, cenX, cenY, x, y, normSq`
 
     stmt s;
     Select s such that Follows* (6, s)
-    
+
 
 Answer: `7, 8, 9`
 
@@ -89,7 +89,7 @@ Answer: `7, 8, 9`
 
     variable v;
     Select v such that Modifies (6, v)
-    
+
 
 Answer: `count`
 
@@ -97,7 +97,7 @@ Answer: `count`
 
     variable v;
     Select v such that Uses (14, v)
-    
+
 
 Answer: `cenX, cenY`
 
@@ -105,7 +105,7 @@ Answer: `cenX, cenY`
 
     variable v; procedure p;
     Select p such that  Modifies (p, "x")
-    
+
 
 Answer: `main, computeCentroid, readPoint`
 
@@ -113,7 +113,7 @@ Answer: `main, computeCentroid, readPoint`
 
     assign a; while w;
     Select a such that Parent* (w, a)
-    
+
 
 Answer: `6, 7, 8`
 
@@ -121,7 +121,7 @@ Answer: `6, 7, 8`
 
     stmt s;
     Select s such that Parent (s, 7)
-    
+
 
 Answer: `5`
 
@@ -134,7 +134,7 @@ With reference to [Code 5](#code-5), the following questions can be translated i
 
     assign a;
     Select a pattern a ( _ , "count + 1")
-    
+
 
 Answer: `6`
 
@@ -142,15 +142,15 @@ Answer: `6`
 
     assign a;
     Select a pattern a ( "normSq" , _"cenX * cenX"_)
-    
+
 
 Answer: `14`
 
-Same query can be written using a different variable name:
+Same query can be written using a different synonym name:
 
     assign newa;
     Select newa pattern newa ( "normSq" , _"cenX * cenX"_)
-    
+
 
 Answer: `14`
 
@@ -161,16 +161,16 @@ Answer: `14`
 
     assign a; while w;
     Select w such that Parent* (w, a) pattern a ("count", _)
-    
+
 
 Answer: `5`
 
 **Q12. Find assignments that use and modify the same variable**
 
     assign a; variable v;
-    
+
     Select a such that Uses (a, v) pattern a (v, _)
-    
+
 
 Answer: `6, 7, 8, 12, 13`
 
@@ -180,13 +180,13 @@ Note that many questions can be correctly translated in multiple ways into PQL. 
 
     assign a;
     Select a pattern a ("x", _) such that Uses (a, "x")
-    
+
 
 or
 
     assign a;
     Select a such that Uses (a, "x") pattern a ("x", _)
-    
+
 
 Answer: `none`
 
@@ -194,12 +194,12 @@ Answer: `none`
 
     assign a; while w;
     Select a such that Parent* (w, a) pattern a ("count", _)
-    
+
 
 or
 
     assign a; while w;
-    _Select a pattern a ("count", _) such that Parent* (w, a)
-    
+    Select a pattern a ("count", _) such that Parent* (w, a)
+
 
 Answer: `6`

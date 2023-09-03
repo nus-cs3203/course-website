@@ -9,6 +9,13 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#3-sep-2023)3 Sep 2023
+---------------------------
+
+* Removed certain typo in [Basic SPA Requirements > PQL > Example Queries](contents/basic-spa-requirements/program-query-language/example-queries.html)
+
+* Removed information about pattern clauses in [Basic SPA Requirements > PQL > Such-That Clauses](contents/basic-spa-requirements/program-query-language/such-that-clause.html).
+
 [](#30-aug-2023)30 Aug 2023
 ---------------------------
 
