@@ -207,8 +207,7 @@
       "src": "contents/basic-spa-requirements/program-query-language/such-that-clause.md",
       "title": "",
       "headings": {
-        "relationships-in-such-that-clauses": "Relationships in Such-that Clauses",
-        "assign-pattern-clauses": "Assign Pattern Clauses"
+        "relationships-in-such-that-clauses": "Relationships in Such-that Clauses"
       },
       "headingKeywords": {}
     },
@@ -546,6 +545,7 @@
       "title": "",
       "headings": {
         "update-history": "Update History",
+        "3-sep-2023": "3 Sep 2023",
         "30-aug-2023": "30 Aug 2023",
         "16-aug-2023": "16 Aug 2023",
         "14-aug-2023": "14 Aug 2023"
