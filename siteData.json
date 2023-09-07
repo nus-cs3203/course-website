@@ -32,6 +32,18 @@
       "headingKeywords": {}
     },
     {
+      "src": "contents/advanced-spa-requirements/PQL/negation-of-clauses.md",
+      "title": "",
+      "headings": {
+        "negation-of-clauses": "Negation of Clauses",
+        "code-6": "Code 6",
+        "negation-of-clauses-with-no-synonyms": "Negation of Clauses with No Synonyms",
+        "negation-of-clauses-with-one-synonym": "Negation of Clauses with One Synonym",
+        "negation-of-clauses-with-two-synonyms": "Negation of Clauses with Two Synonyms"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "contents/advanced-spa-requirements/PQL/pattern-clauses.md",
       "title": "",
       "headings": {
@@ -87,9 +99,7 @@
         "code-8": "Code 8",
         "code-9": "Code 9",
         "code-10": "Code 10",
-        "code-11": "Code 11",
-        "affects-2": "Affects*",
-        "code-12": "Code 12"
+        "code-11": "Code 11"
       },
       "headingKeywords": {}
     },
@@ -545,6 +555,7 @@
       "title": "",
       "headings": {
         "update-history": "Update History",
+        "7-sep-2023": "7 Sep 2023",
         "3-sep-2023": "3 Sep 2023",
         "30-aug-2023": "30 Aug 2023",
         "16-aug-2023": "16 Aug 2023",
