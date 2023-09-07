@@ -9,6 +9,11 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#7-sep-2023)7 Sep 2023
+---------------------------
+
+* Changed requirements for Advanced SPA requirements.
+
 [](#3-sep-2023)3 Sep 2023
 ---------------------------
 
