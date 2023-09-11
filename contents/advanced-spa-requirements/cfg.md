@@ -51,7 +51,7 @@ For simplicity, procedures `First` and `Third` are excluded from statement numbe
 
 ###### [](#figure-5-cfg-for-procedure-second-in-code-6)Figure 5: CFG for procedure Second in [Code 6](#code-6)
 
-![figure-17](../../images/fig17.PNG)
+![figure-5](../../images/fig17.png)
 
 Do note that:
 
