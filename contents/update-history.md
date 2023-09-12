@@ -9,10 +9,15 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#11-sep-2023)11 Sep 2023
+---------------------------
+
+* Updated broken links for some diagrams.
+
 [](#7-sep-2023)7 Sep 2023
 ---------------------------
 
-* Changed requirements for Advanced SPA requirements.
+* Added visibility for Advanced SPA requirements, and Milestone 2 & 3 Scope.
 
 [](#3-sep-2023)3 Sep 2023
 ---------------------------
