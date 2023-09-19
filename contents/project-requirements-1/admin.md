@@ -9,13 +9,10 @@
 [](#deadlines)Deadlines
 =======================
 
-*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 1.6% of your module grade)**
+*   Penalty for late submission within 24 hours: **20% of the maximum score for the component**
 *   Submission **24 hours after the deadline** will not be accepted, and no marks will be awarded.
 
 You may be contacted to fix your code within the time stipulated after the deadline if there are any issues during testing of your system.
-
-*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 0.8% of your module grade)**
-*   Submission after **24 hours after the deadline** will not be accepted, and no marks will be awarded.
 
 Do refer to:
 

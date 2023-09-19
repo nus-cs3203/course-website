@@ -90,10 +90,8 @@
   * [Report Submission Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/rsg.html)
   * [Code Demonstration Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/cdg.html)
   * [Grading Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/gg.html)
-  <!--
     * [Oral Presentation Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/opg.html)
     * [Final Presentation Guidelines]({{baseUrl}}/contents/project-requirement-guidelines/fp.html)
-  -->
 * [Reference Books]({{baseUrl}}/contents/reference.html)
       </site-nav>
     </div>

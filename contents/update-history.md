@@ -9,6 +9,15 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#20-sep-2023)20 Sep 2023
+---------------------------
+
+* Updated accepted target environment for code submission in [Tools Version Control System and Code Repository](contents/tools/version-control-repository.html).
+
+* Improved clarity with regards to semantic errors for pattern clauses in [Basic SPA Requirements > PQL > Other Rules](contents/basic-spa-requirements/program-query-language/introduction.html#other-rules)
+
+* Removed outdated deadline information for Milestone 1 / 2 / 3.
+
 [](#11-sep-2023)11 Sep 2023
 ---------------------------
 

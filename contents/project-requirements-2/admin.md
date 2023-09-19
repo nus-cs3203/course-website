@@ -15,18 +15,14 @@ Before starting work on Milestone 2, consult your tutor about your [proposed sco
 Fill in survey available on Canvas by **17 Oct (Week 10 Mon), 2pm** finalizing on the scope of your project. You should be able to demonstrate each feature end-to-end during the code demonstration.
 -->
 
-Code Submission Deadline: **20 Mar (Week 10 Mon), 2pm**
+*   Penalty for late submission within 24 hours: **20% of the maximum score for the component**
+*   Submission **24 hours after the deadline** will not be accepted, and no marks will be awarded.
 
-*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 1% of your module grade)**
+You may be contacted to fix your code within the time stipulated after the deadline if there are any issues during testing of your system.
 
-*   Tagged commit will also be used to run test cases used in Milestone 1 if your prototype had major issues. TAs will be in contact with you separately.
+Tagged commit will also be used to run test cases used in Milestone 1 if your prototype had major issues. TAs will be in contact with you separately.
 
-Report Submission Deadline: **22 Mar (Week 10 Wed), 2pm**
-
-*   Penalty for late submission within 24 hours: **20% of the maximum score (i.e. 0.6% of your module grade)**
-*   Submission after **23 Mar (Week 10 Thu), 2pm** will not be accepted, and no marks will be awarded.
-
-Individual Oral Presentation: **Week 9 to Week 10**, to be scheduled with your module coordinators.
+Individual Oral Presentation to be scheduled with your module coordinators.
 
 Do refer to:
 

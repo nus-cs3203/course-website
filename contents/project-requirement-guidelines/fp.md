@@ -14,13 +14,13 @@ For Milestone 3, each team will be allocated to a private 45-minute time slot fo
 Not all team members need to present their work, but all team members must be physically around for the presentation.
 
 All sessions will be conducted physically.
-
+<!--
 The flow of the presentation is as follows:
 
 * Presentation: 20 minutes
 * Q & A: 15 minutes
 * Any other issues (e.g. failed test cases): 10 minutes
-
+-->
 [](#presentation-content)Presentation Content
 =============================================
 
