@@ -2,7 +2,408 @@
   "enableSearch": true,
   "pages": [
     {
-      "src": "contents/team.md",
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "cs3203-website": "CS3203 Website",
+        "setting-up": "Setting up",
+        "updating-content": "Updating content"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/example-queries.md",
+      "title": "",
+      "headings": {
+        "example-queries": "Example Queries",
+        "code-6": "Code 6",
+        "meaningful-queries": "Meaningful Queries",
+        "query-formation": "Query Formation",
+        "meaningless-queries": "Meaningless Queries"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/multi-clauses.md",
+      "title": "",
+      "headings": {
+        "multi-clause-queries": "Multi-clause Queries"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/negation-of-clauses.md",
+      "title": "",
+      "headings": {
+        "negation-of-clauses": "Negation of Clauses",
+        "code-6": "Code 6",
+        "negation-of-clauses-with-no-synonyms": "Negation of Clauses with No Synonyms",
+        "negation-of-clauses-with-one-synonym": "Negation of Clauses with One Synonym",
+        "negation-of-clauses-with-two-synonyms": "Negation of Clauses with Two Synonyms"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/pattern-clauses.md",
+      "title": "",
+      "headings": {
+        "pattern-clauses": "Pattern Clauses",
+        "code-13": "Code 13"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/select-clauses.md",
+      "title": "",
+      "headings": {
+        "select-clause": "Select Clause"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/such-that-clauses.md",
+      "title": "",
+      "headings": {
+        "such-that-clauses": "Such-that Clauses"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/PQL/with-clauses.md",
+      "title": "",
+      "headings": {
+        "with-clauses": "With Clauses"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/cfg.md",
+      "title": "",
+      "headings": {
+        "control-flow-graph-cfg": "Control Flow Graph (CFG)",
+        "code-6": "Code 6"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/design-abstractions.md",
+      "title": "",
+      "headings": {
+        "design-abstractions": "Design Abstractions",
+        "code-6": "Code 6",
+        "advanced-design-abstractions": "Advanced Design Abstractions",
+        "calls-calls": "Calls / Calls*",
+        "next-next": "Next / Next*",
+        "affects": "Affects",
+        "code-7": "Code 7",
+        "code-8": "Code 8",
+        "code-9": "Code 9",
+        "code-10": "Code 10",
+        "code-11": "Code 11"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/format-res.md",
+      "title": "",
+      "headings": {
+        "format-of-results": "Format of Results"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/advanced-spa-requirements/pql.md",
+      "title": "",
+      "headings": {
+        "advanced-pql": "Advanced PQL",
+        "advanced-pql-grammar": "Advanced PQL Grammar",
+        "other-rules": "Other Rules"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/abstract-syntax-tree.md",
+      "title": "",
+      "headings": {
+        "abstract-syntax-tree-ast": "Abstract Syntax Tree (AST)",
+        "figure-2-ast-fragment-of-a-while-loop": "Figure 2: AST fragment of a while loop",
+        "code-4-program-with-multiple-procedures": "Code 4: Program with multiple procedures",
+        "figure-3-full-ast-for-code-4": "Figure 3: Full AST for Code 4",
+        "figure-4-example-asts-for-expressions": "Figure 4: Example ASTs for expressions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/design-abstractions.md",
+      "title": "",
+      "headings": {
+        "design-abstractions": "Design Abstractions",
+        "code-5": "Code 5",
+        "basic-design-abstractions": "Basic Design Abstractions",
+        "follows-follows": "Follows / Follows*",
+        "parent-parent": "Parent / Parent*",
+        "uses": "Uses",
+        "modifies": "Modifies"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/design-entities.md",
+      "title": "",
+      "headings": {
+        "design-entities": "Design Entities"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/faq.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/intended-behaviour-format-results.md",
+      "title": "",
+      "headings": {
+        "spa-behaviour": "SPA Behaviour",
+        "format-of-results": "Format of Results"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/motivation.md",
+      "title": "",
+      "headings": {
+        "motivation": "Motivation",
+        "static-program-analyzer-spa": "Static Program Analyzer (SPA)",
+        "how-it-works": "How It Works",
+        "figure-1-spa-s-main-components": "Figure 1: SPA's Main Components"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/program-query-language/assign-pattern-clause.md",
+      "title": "",
+      "headings": {
+        "assign-pattern-clauses": "Assign Pattern Clauses"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/program-query-language/example-queries.md",
+      "title": "",
+      "headings": {
+        "example-queries": "Example Queries",
+        "code-5": "Code 5",
+        "queries-with-no-such-that-and-pattern-clause": "Queries with no such-that and pattern clause",
+        "queries-with-one-such-that-clause": "Queries with one such-that clause",
+        "queries-with-one-pattern-clause": "Queries with one pattern clause",
+        "queries-with-one-pattern-clause-and-one-such-that-clause": "Queries with one pattern clause and one such-that clause"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/program-query-language/introduction.md",
+      "title": "",
+      "headings": {
+        "program-query-language-pql": "Program Query Language (PQL)",
+        "basic-pql": "Basic PQL",
+        "basic-pql-grammar": "Basic PQL Grammar",
+        "other-rules": "Other Rules"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/program-query-language/such-that-clause.md",
+      "title": "",
+      "headings": {
+        "relationships-in-such-that-clauses": "Relationships in Such-that Clauses"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/basic-spa-requirements/simple-programming.md",
+      "title": "",
+      "headings": {
+        "simple-programming-language": "SIMPLE Programming Language",
+        "code-1-compute-average-of-three-integer-numbers": "Code 1: Compute average of three integer numbers",
+        "code-2-print-numbers-in-ascending-order": "Code 2: Print numbers in ascending order",
+        "code-3-compute-the-sum-of-the-digits-of-an-integer": "Code 3: Compute the sum of the digits of an integer",
+        "code-4-program-with-multiple-procedures": "Code 4: Program with multiple procedures",
+        "general-information": "General Information",
+        "concrete-syntax-grammar-csg": "Concrete Syntax Grammar (CSG)",
+        "other-rules": "Other Rules",
+        "statement-numbers": "Statement Numbers",
+        "abstract-syntax-grammar-asg": "Abstract Syntax Grammar (ASG)"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/important-dates.md",
+      "title": "",
+      "headings": {
+        "important-dates": "Important Dates"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/cdg.md",
+      "title": "",
+      "headings": {
+        "code-demonstration-guidelines": "Code Demonstration Guidelines"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/csg.md",
+      "title": "",
+      "headings": {
+        "code-submission-guidelines": "Code Submission Guidelines",
+        "tagging-commits": "Tagging Commits",
+        "verifying-submission": "Verifying Submission"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/fp.md",
+      "title": "",
+      "headings": {
+        "final-presentation-guidelines": "Final Presentation Guidelines",
+        "presentation-content": "Presentation Content"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/gg.md",
+      "title": "",
+      "headings": {
+        "spa-correctness-grading": "SPA Correctness Grading",
+        "spa-efficiency-grading": "SPA Efficiency Grading",
+        "report-grading": "Report Grading",
+        "code-review": "Code Review",
+        "other-notes": "Other Notes",
+        "individual-penalty-bonus": "Individual Penalty / Bonus"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/opg.md",
+      "title": "",
+      "headings": {
+        "oral-presentation-guidelines": "Oral Presentation Guidelines"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/rsg.md",
+      "title": "",
+      "headings": {
+        "report-submission-guidelines": "Report Submission Guidelines",
+        "report-format": "Report Format",
+        "tips": "Tips"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirement-guidelines/sub-format-check.md",
+      "title": "",
+      "headings": {
+        "available-script": "Available Script",
+        "installation-and-amp-setup": "Installation &amp; Setup",
+        "using-the-script": "Using the Script"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-1/admin.md",
+      "title": "",
+      "headings": {
+        "deadlines": "Deadlines",
+        "marking-scheme": "Marking Scheme"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-1/scope.md",
+      "title": "",
+      "headings": {
+        "general-requirements": "General Requirements",
+        "source-processor": "Source Processor",
+        "pkb": "PKB",
+        "query-processing-subsystem": "Query Processing Subsystem"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-1/tips.md",
+      "title": "",
+      "headings": {
+        "1-kicking-off": "1. Kicking Off",
+        "1-1-project-errands": "1.1. Project Errands",
+        "1-2-within-the-sprints": "1.2. Within the Sprints",
+        "1-3-important-notes-for-successful-outcome": "1.3. Important Notes for Successful Outcome",
+        "2-testing": "2. Testing",
+        "3-checklist-source-processor-pkb": "3. Checklist - Source Processor / PKB",
+        "4-checklist-query-processing-subsystem": "4. Checklist - Query Processing Subsystem"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-2/admin.md",
+      "title": "",
+      "headings": {
+        "deadlines": "Deadlines",
+        "marking-scheme": "Marking Scheme"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-2/scope.md",
+      "title": "",
+      "headings": {
+        "general-requirements": "General Requirements",
+        "constraints-on-program-design-abstractions": "Constraints on Program Design Abstractions",
+        "source-processor": "Source Processor",
+        "pkb": "PKB",
+        "query-processing-subsystem": "Query Processing Subsystem"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-2/tips.md",
+      "title": "",
+      "headings": {
+        "teamwork": "Teamwork",
+        "prototype-revision": "Prototype Revision",
+        "query-evaluator-implementation": "Query Evaluator Implementation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-3/admin.md",
+      "title": "",
+      "headings": {
+        "deadlines": "Deadlines",
+        "marking-scheme": "Marking Scheme"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/project-requirements-3/scope.md",
+      "title": "",
+      "headings": {
+        "general-requirements": "General Requirements"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/reference.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/team-formation.md",
       "title": "",
       "headings": {
         "team-formation": "Team Formation"
@@ -10,7 +411,56 @@
       "headingKeywords": {}
     },
     {
-      "src": "contents/tools-downloads.md",
+      "src": "contents/tools/autotester-testing.md",
+      "title": "",
+      "headings": {
+        "1-autotester": "1. AutoTester",
+        "1-1-running-the-autotester": "1.1. Running the AutoTester",
+        "1-2-format-of-pql-queries-and-amp-its-results": "1.2 Format of PQL queries &amp; its results",
+        "1-3-pql-queries-with-empty-results": "1.3 PQL Queries with empty results",
+        "1-4-output-xml": "1.4 Output XML",
+        "1-5-integration-between-spa-and-autotester": "1.5. Integration between SPA and AutoTester",
+        "2-unit-integration-testing": "2. Unit/Integration Testing",
+        "3-query-timing-histogram": "3. Query Timing Histogram",
+        "4-parsing-time-and-memory-usage": "4. Parsing Time and Memory Usage",
+        "parsing-time": "Parsing Time",
+        "memory-usage": "Memory Usage"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools/continuous-integration.md",
+      "title": "",
+      "headings": {
+        "continuous-integration": "Continuous Integration",
+        "1-warning": "1. Warning",
+        "2-jenkins": "2. Jenkins",
+        "3-github-actions": "3. GitHub Actions",
+        "3-1-github-actions-usage-guidelines": "3.1. GitHub Actions Usage Guidelines",
+        "3-2-sample-github-actions-workflow": "3.2. Sample GitHub Actions Workflow"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools/cross-platform-spa.md",
+      "title": "",
+      "headings": {
+        "introduction": "Introduction",
+        "1-getting-started-installing-the-tools": "1. Getting Started: Installing the Tools",
+        "1-1-installing-visual-studio-2022-2019": "1.1. Installing Visual Studio 2022/2019",
+        "1-2-installing-clion": "1.2 Installing CLion",
+        "2-cross-platform-startup-spa-solution": "2. Cross-platform Startup SPA Solution",
+        "2-1-content-of-cross-platform-startupspasolution": "2.1. Content of Cross-platform StartupSPASolution",
+        "2-2-working-with-cmake-in-visual-studio": "2.2. Working with CMake in Visual Studio",
+        "2-3-working-with-cmake-in-clion": "2.3. Working with CMake in CLion",
+        "2-4-working-on-macos-using-terminal": "2.4. Working on macOS using Terminal",
+        "2-5-working-on-fedora-linux-using-terminal": "2.5. Working on Fedora (Linux) using Terminal",
+        "faq": "FAQ"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools/downloads.md",
       "title": "",
       "headings": {
         "tools-downloads": "Tools Downloads",
@@ -18,13 +468,12 @@
         "windows": "Windows",
         "cross-platform": "Cross-platform",
         "tools-lab-slides": "Tools Lab Slides",
-        "sample-simple-source-program": "Sample SIMPLE Source Program",
         "python-script-check-submission-py": "Python Script check-submission.py"
       },
       "headingKeywords": {}
     },
     {
-      "src": "contents/tools.md",
+      "src": "contents/tools/introduction.md",
       "title": "",
       "headings": {
         "tools": "Tools",
@@ -33,11 +482,60 @@
       "headingKeywords": {}
     },
     {
+      "src": "contents/tools/java-development.md",
+      "title": "",
+      "headings": {
+        "beta-java-development": "[BETA] Java Development"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools/project-management.md",
+      "title": "",
+      "headings": {
+        "project-management": "Project Management",
+        "1-agile-project-management-scrum": "1. Agile Project Management - Scrum",
+        "2-recommended-project-management-tools": "2. Recommended Project Management Tools",
+        "3-project-release-plan": "3. Project Release Plan",
+        "4-references": "4. References"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools/version-control-repository.md",
+      "title": "",
+      "headings": {
+        "tools-version-control-system-and-code-repository": "Tools Version Control System and Code Repository"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/tools/windows-spa.md",
+      "title": "",
+      "headings": {
+        "introduction": "Introduction",
+        "1-getting-started-installing-the-tools": "1. Getting Started: Installing the Tools",
+        "1-1-installing-visual-studio-2022-2019": "1.1. Installing Visual Studio 2022/2019",
+        "2-visual-studio-2022-2019-startup-spa-solution": "2. Visual Studio 2022/2019 Startup SPA Solution",
+        "2-1-content-of-startupspasolution": "2.1 Content of StartupSPASolution",
+        "2-2-running-the-projects-in-startupspasolution": "2.2. Running the Projects in StartupSPASolution",
+        "2-3-potential-problems": "2.3. Potential Problems",
+        "faq": "FAQ"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "contents/topic1.md",
       "title": "",
       "headings": {
-        "update-history": "Update History"
+        "topic-1": "Topic 1"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/topic2.md",
+      "title": "",
+      "headings": {},
       "headingKeywords": {}
     },
     {
@@ -53,10 +551,25 @@
       "headingKeywords": {}
     },
     {
-      "src": "index.md",
-      "title": "Landing Page",
+      "src": "contents/update-history.md",
+      "title": "",
       "headings": {
-        "welcome-to-the-project-wiki-for-cs3203": "Welcome to the project wiki for CS3203"
+        "update-history": "Update History",
+        "20-sep-2023": "20 Sep 2023",
+        "11-sep-2023": "11 Sep 2023",
+        "7-sep-2023": "7 Sep 2023",
+        "3-sep-2023": "3 Sep 2023",
+        "30-aug-2023": "30 Aug 2023",
+        "16-aug-2023": "16 Aug 2023",
+        "14-aug-2023": "14 Aug 2023"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "CS3202",
+      "headings": {
+        "welcome-to-the-project-wiki-for-cs3203": "Welcome to the Project Wiki for CS3203"
       },
       "headingKeywords": {}
     }
