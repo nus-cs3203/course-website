@@ -12,9 +12,9 @@
 [](#20-sep-2023)20 Sep 2023
 ---------------------------
 
-* Updated accepted target environment for code submission in [Tools Version Control System and Code Repository](contents/tools/version-control-repository.html).
+* Updated accepted target environment for code submission in [Tools Version Control System and Code Repository](tools/version-control-repository.html).
 
-* Improved clarity with regards to semantic errors for pattern clauses in [Basic SPA Requirements > PQL > Other Rules](contents/basic-spa-requirements/program-query-language/introduction.html#other-rules)
+* Improved clarity with regards to semantic errors for pattern clauses in [Basic SPA Requirements > PQL > Other Rules](basic-spa-requirements/program-query-language/introduction.html#other-rules)
 
 * Removed outdated deadline information for Milestone 1 / 2 / 3.
 
@@ -31,9 +31,9 @@
 [](#3-sep-2023)3 Sep 2023
 ---------------------------
 
-* Removed certain typo in [Basic SPA Requirements > PQL > Example Queries](contents/basic-spa-requirements/program-query-language/example-queries.html)
+* Removed certain typo in [Basic SPA Requirements > PQL > Example Queries](basic-spa-requirements/program-query-language/example-queries.html)
 
-* Removed information about pattern clauses in [Basic SPA Requirements > PQL > Such-That Clauses](contents/basic-spa-requirements/program-query-language/such-that-clause.html).
+* Removed information about pattern clauses in [Basic SPA Requirements > PQL > Such-That Clauses](basic-spa-requirements/program-query-language/such-that-clause.html).
 
 [](#30-aug-2023)30 Aug 2023
 ---------------------------
@@ -43,7 +43,7 @@
 [](#16-aug-2023)16 Aug 2023
 ---------------------------
 
-* Updated certain arithmetic expressions in [Basic SPA Requirements > PQL > Assign Pattern Clauses](contents/basic-spa-requirements/program-query-language/assign-pattern-clause.html) to show underscores wherever necessary.
+* Updated certain arithmetic expressions in [Basic SPA Requirements > PQL > Assign Pattern Clauses](basic-spa-requirements/program-query-language/assign-pattern-clause.html) to show underscores wherever necessary.
 
 [](#14-aug-2023)14 Aug 2023
 ---------------------------
