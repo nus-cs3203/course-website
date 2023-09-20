@@ -51,7 +51,8 @@ Design Abstraction
 |:------------------------------------------------------------------:|:--------------------:|
 | <a href="#calls--calls">Calls / Calls*</a>                         | Procedures           |
 | <a href="#next--next">Next / Next*</a>                             | Statements           |
-| <a href="#affects">Affects</a> / <a href="#affects-1">Affects*</a> | Assignments          |
+| <a href="#affects">Affects</a>  | Assignments          |
+<!--| <a href="#affects">Affects</a> / <a href="#affects-1">Affects*</a> | Assignments          |-->
 
 [](#calls--calls)Calls / Calls\*
 ================================

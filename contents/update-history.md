@@ -18,6 +18,8 @@
 
 * Removed outdated deadline information for Milestone 1 / 2 / 3.
 
+* Removed stray requirements in AdvancedSPA.
+
 [](#11-sep-2023)11 Sep 2023
 ---------------------------
 
