@@ -68,7 +68,7 @@
     * [Such-That Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/such-that-clauses.html)
     * [Pattern Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/pattern-clauses.html)
     * [With Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/with-clauses.html)
-    <!--* [Negation of Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/negation-of-clauses.html)-->
+    * [Negation of Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/negation-of-clauses.html)
     * [Multi Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/multi-clauses.html)
     * [Example Queries]({{baseUrl}}/contents/advanced-spa-requirements/PQL/example-queries.html)
   * [Format of Results]({{baseUrl}}/contents/advanced-spa-requirements/format-res.html)

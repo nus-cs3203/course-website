@@ -9,6 +9,13 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#02-oct-2023)02 Oct 2023
+---------------------------
+
+* Added visibility for Advanced SPA requirements, specifically on [negation of clauses](advanced-spa-requirements/PQL/negation-of-clauses.html) in queries.
+
+* Removed more stray requirements in AdvancedSPA.
+
 [](#20-sep-2023)20 Sep 2023
 ---------------------------
 
