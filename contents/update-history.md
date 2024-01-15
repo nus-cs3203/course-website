@@ -14,7 +14,7 @@
 
 * Fixed broken links in [Downloads](tools/downloads.html).
 
-* Added mentions of TROFOS in [Tools](tools/introduction.html) and [Project Management](tools/project-management.html) and
+* Added mentions of TROFOS in [Tools](tools/introduction.html) and [Project Management](tools/project-management.html).
 
 * Separated requirements for IDEs and compilers to avoid confusion in [Tools](tools/introduction.html).
 
