@@ -5,13 +5,15 @@
 A software team needs a set of good tools to build a product.
 For CS3203, we recommend the following tools:
 
-* C++ Compiler: Visual Studio 2022/2019. Please avoid using older versions of Visual Studio because you may have problems integrating with AutoTester. You can also use other C++ compilers such as CLion (for macOS).
+* Integrated Development Environment (IDE): Visual Studio 2022/2019 (recommended for Windows) or CLion (recommended for macOS). Please avoid using older versions of Visual Studio because you may have problems integrating with AutoTester. You can also use other IDEs that are not recommended as long as you know how to set up the correct compilers for the startup solution.
+
+* C++ Compilers: MSVC (automatically available with Visual Studio 2022/2019) for team members developing on Windows, or AppleClang (automatically available with Xcode) for team members developing on macOS.
 
 * Version Control System (VCS): You are required to use Git with the GitHub repository provided.
 
 * Unit Testing Framework: You can use VS Unit Testing, cppUnit, or any other frameworks.
 
-* Project Management Tools: You are required to use features in GitHub Issues / JIRA Cloud to do project management.
+* Project Management Tools: You are required to use features in GitHub Issues / JIRA Cloud / TROFOS to do project management.
 
 * Documentation: You can use Doxygen or other documentation tools.
 

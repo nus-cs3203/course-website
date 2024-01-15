@@ -31,7 +31,7 @@ You can look into how to integrate your repository with Jenkins [here](https://w
 GitHub Actions is another tool that you can use. It makes use of workflows, which are custom automated processes that you can set up in your repository to build, test, package, release or deploy any project on GitHub. A workflow should be configured using YAML syntax, and save them as workflow files in your repository. You must store workflows in the .github/workflows directory in the root of your repository.
 
 Please refer GitHub Docs on [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions) for more information.
-
+<!--
 [](#31-github-actions-usage-guidelines)3.1. GitHub Actions Usage Guidelines
 ---------------------------------------------------------------------------
 
@@ -46,9 +46,9 @@ As there are limits for GitHub Actions usage for organizations, and there is cur
 5.  **Frequency of triggering workflow**: You should only run your workflow at most twice a day on average. If you are doing triggering your workflow from pushes or merging more than twice a day on average, please execute your workflow on a schedule instead.
 
 6.  **Time limit for workflow**: You should configure your workflow such that for each job (build, stylistic check), it should only run at most 3 minutes per job. You should also configure your workflow such that it runs at most 5 minutes for all workflow(s). If a workflow exceeds 5 minutes, consider increasing the time limit for the job, while decreasing the frequency of triggering the workflow.
+-->
 
-
-[](#32-sample-github-actions-workflow)3.2. Sample GitHub Actions Workflow
+[](#31-sample-github-actions-workflow)3.1. Sample GitHub Actions Workflow
 -------------------------------------------------------------------------
 
 The following are sample workflows that you can use for Github Actions.

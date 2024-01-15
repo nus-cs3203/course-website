@@ -1,6 +1,6 @@
 <br>
 
-# Tools Version Control System and Code Repository
+# Version Control System and Code Repository
 
 All teams are required to use Git with the GitHub repository provided.
 

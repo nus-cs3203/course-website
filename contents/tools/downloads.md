@@ -6,7 +6,7 @@
   pageNavTitle: "Chapters of This Page"
 </frontmatter>
 
-## Tools Downloads
+# Downloads
 
 This page provides the links to the project-related files.
 
@@ -18,19 +18,19 @@ The file packages for each start up solution are mainly for you to try out and d
 
 As a reminder, we will create the Github repository for you, which will have the respective SPA Solutions pre-loaded. You can use the zip files here to check that your local environment is setup correctly.
 
-> Startup solutions last updated on 7 Jan.
+> Startup solutions last updated on 7 Jan 2022.
 
 ### Windows
 
 [spa-win.zip](../../archive/spa-win-2022-Jan-07.zip)
 
-Related GitHub Wiki page: Windows Startup SPA Solution
+Related GitHub Wiki page: [Windows Startup SPA Solution](windows-spa.html)
 
 ### Cross-platform
 
 [spa-cp.zip](../../archive/spa-cp-2022-Jan-07.zip)
 
-Related GitHub Wiki page: Cross-platform Startup SPA Solution
+Related GitHub Wiki page: [Cross-platform Startup SPA Solution](cross-platform-spa.html)
 
 ## Tools Lab Slides
 

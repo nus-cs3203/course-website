@@ -9,6 +9,36 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#16-jan-2024)16 Jan 2024
+---------------------------
+
+* Fixed broken links in [Downloads](tools/downloads.html).
+
+* Added mentions of TROFOS in [Tools](tools/introduction.html) and [Project Management](tools/project-management.html) and
+
+* Separated requirements for IDEs and compilers to avoid confusion in [Tools](tools/introduction.html).
+
+<br>
+
+* Removed visibility for all update history before AY23/24 Semester 2.
+
+* Removed stray files in backend that has not been updated for semesters.
+
+* Removed Google Calendar link for previous semesters in [Important Dates](important-dates.html).
+
+* Removed Usage Guidelines in [Continuous Integration](tools/continuous-integration.html).
+
+* Removed visibility for Advanced SPA Requirements, which will be back in the later weeks.
+
+* Removed visibility for Project Requirements for Milestone 2 and 3, which will be back in the later weeks.
+
+<br>
+
+* Fixed formatting issues in:
+    * [Downloads](tools/downloads.html)
+    * [Version Control System and Code Repository](version-control-repository.html)
+
+<!--
 [](#02-oct-2023)02 Oct 2023
 ---------------------------
 
@@ -65,7 +95,7 @@
 
 * Removed visibility for all update history before AY23/24 Semester 1.
 
-<!--
+
 [](#10-mar-2023)10 Mar 2023
 
 * Fixed deadlines to Milestone 2.

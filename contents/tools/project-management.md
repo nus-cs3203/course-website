@@ -41,9 +41,10 @@ This type of methodology is great for teams that value constant improvement, as 
 [](#2-recommended-project-management-tools)2\. Recommended Project Management Tools
 ===================================================================================
 
-We recommend to use either Github Issues or JIRA Cloud.
+We recommend to use either Github Issues, JIRA Cloud or TROFOS.
 
-If you use JIRA Cloud, make sure that your lecturer, TA and tutor for your team are part of the account.
+If you use JIRA Cloud, make sure that TA and tutor know.
+If you use TROFOS, make sure that your instructor, TA and tutor know.
 
 [](#3-project-release-plan)3\. Project Release Plan
 ==================================================================================================
