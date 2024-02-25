@@ -45,6 +45,8 @@ For simplicity, procedures `First` and `Third` are excluded from statement numbe
 [](#negation-of-clauses-with-no-synonyms)Negation of Clauses with No Synonyms
 ===============================================================================
 
+For a clause with no synonyms, a clause that has the result `TRUE` will return `FALSE` when negation is used, vice-versa.
+
 **Q1**
 
         Select BOOLEAN such that not Calls ("First", "Second")
@@ -69,6 +71,8 @@ Therefore, the query should return all constants `0, 1, 2, 5` as the answer.
 [](#negation-of-clauses-with-one-synonym)Negation of Clauses with One Synonym
 ===============================================================================
 
+For a clause with one synonym `x`, the negated clause will return the set of answers `X = A - B`, where `A` is the set of all possible answers that fits `x`, and `B` is the set of answers that fits the clause.
+
 **Q3**
 
         procedure p;
@@ -84,6 +88,19 @@ Therefore, the query should return `Third` as the answer.
 
 **Q4**
 
+        procedure q;
+        Select q such that not Calls* (_, q)
+
+Answer: `First`
+
+There are 3 procedures for the synonym `q` to consider: `First`, `Second`, `Third`.
+
+Since only procedure(s) `Second` and `Third` fits the synonym `q` in `Calls* (_, q)`, then the remaining procedure(s) `First` will fit the synonym `q` in `not Calls* (_, q)`.
+
+Therefore, the query should return `First` as the answer.
+
+**Q5**
+
         while w;
         Select w pattern not w("y", _)
 
@@ -95,7 +112,7 @@ Since no while-stmt(s) fits the synonym `w` in `w("y", _)`, then the remaining w
 
 Therefore, the query should return `3` as the answer.
 
-**Q5**
+**Q6**
 
         assign a;
         Select a with not 10 = a.stmt#
@@ -113,7 +130,9 @@ Therefore, the query should return `1, 2, 4, 6, 8, 9, 11, 12` as the answer.
 [](#negation-of-clauses-with-two-synonyms)Negation of Clauses with Two Synonyms
 ===============================================================================
 
-**Q6**
+For a clause with two synonyms `x` and `y`, the negated clause will return the set of answers `X = A - B`, where `A` is the Cartesian Product of all possible `x` and all possible `y`, and `B` is the set of pairs of answers that fits the clause.
+
+**Q7**
 
         procedure p, q;
         Select p such that not Calls* (p, q)
@@ -126,7 +145,7 @@ Since only combination(s) `First Second` and `Second Third` fits the synonyms `p
 
 Therefore, the query should return `First, Second, Third` as the answer.
 
-**Q7**
+**Q8**
 
         while w; variable v;
         Select <w, v> pattern not w(v, _)

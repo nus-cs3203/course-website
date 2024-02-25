@@ -25,9 +25,9 @@ Do refer to:
 [](#marking-scheme)Marking Scheme
 =================================
 
-Milestone 3 accounts for **40%** of the final grade.
+Milestone 3 accounts for **35%** of the final grade.
 
-*   **15%**: [Correctness](../project-requirement-guidelines/gg.html#spa-correctness-grading) based on AutoTester evaluation
+*   **10%**: [Correctness](../project-requirement-guidelines/gg.html#spa-correctness-grading) based on AutoTester evaluation
 *   **5%**: [Efficiency](../project-requirement-guidelines/gg.html#spa-efficiency-grading) based on AutoTester evaluation
 *   **10%**: [Code Review](../project-requirement-guidelines/gg.html#code-review)
 *   **5%**: [Report](../project-requirement-guidelines/gg.html#report-grading)

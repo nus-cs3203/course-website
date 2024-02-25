@@ -9,6 +9,20 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#26-feb-2024)26 Feb 2024
+---------------------------
+
+* Revert visibility for Advanced SPA Requirements, Project Requirements for Milestone 2 and 3.
+
+* Added clarifications on [negation of clauses](advanced-spa-requirements/PQL/negation-of-clauses.html).
+
+* Updated marking scheme for Milestone 2 and 3.
+
+<br>
+
+* Updated [code submission guidelines](project-requirement-guidelines/csg.html) to neglect phone numbers in repository.
+
+
 [](#16-jan-2024)16 Jan 2024
 ---------------------------
 

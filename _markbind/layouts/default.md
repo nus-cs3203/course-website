@@ -59,7 +59,6 @@
     * [Example queries]({{baseUrl}}/contents/basic-spa-requirements/program-query-language/example-queries.html)
   * [Intended Behaviour & Format of Results]({{baseUrl}}/contents/basic-spa-requirements/intended-behaviour-format-results.html)
   * [FAQ]({{baseUrl}}/contents/basic-spa-requirements/faq.html)
-<!--
 * SPA Requirements - Advanced SPA :expanded:
   * [Control Flow Graph]({{baseUrl}}/contents/advanced-spa-requirements/cfg.html)
   * [Design Abstractions]({{baseUrl}}/contents/advanced-spa-requirements/design-abstractions.html)
@@ -73,12 +72,10 @@
     * [Multi Clauses]({{baseUrl}}/contents/advanced-spa-requirements/PQL/multi-clauses.html)
     * [Example Queries]({{baseUrl}}/contents/advanced-spa-requirements/PQL/example-queries.html)
   * [Format of Results]({{baseUrl}}/contents/advanced-spa-requirements/format-res.html)
-  -->
 * Project Requirements - Milestone 1 :expanded:
   * [Scope]({{baseUrl}}/contents/project-requirements-1/scope.html)
   * [Administrative Matters]({{baseUrl}}/contents/project-requirements-1/admin.html)
   * [Tips]({{baseUrl}}/contents/project-requirements-1/tips.html)
-<!--
 * Project Requirements - Milestone 2 :expanded:
   * [Scope]({{baseUrl}}/contents/project-requirements-2/scope.html)
   * [Administrative Matters]({{baseUrl}}/contents/project-requirements-2/admin.html)
@@ -86,7 +83,6 @@
 * Project Requirements - Milestone 3 :expanded:
   * [Scope]({{baseUrl}}/contents/project-requirements-3/scope.html)
   * [Administrative Matters]({{baseUrl}}/contents/project-requirements-3/admin.html)
-  -->
 * Project Requirements - Guidelines :expanded:
   * Code Submission Guidelines :expanded:
     * [Introduction]({{baseUrl}}/contents/project-requirement-guidelines/csg.html)

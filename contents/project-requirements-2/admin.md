@@ -38,9 +38,9 @@ Milestone 2 accounts for **18%** of the final grade.
 
 *   **5%**: [Correctness](../project-requirement-guidelines/gg.html#spa-correctness-grading) based on AutoTester evaluation on Basic SPA requirements
 *   **3%**: [Continuous Integration](../tools/continuous-integration.html)
-*   **7%**: [Individual Oral Presentation](../project-requirement-guidelines/opg.html#oral-presentation-guidelines)
-*   **3%**: [Report](../project-requirement-guidelines/gg.html#report-grading)
-*   **Penalty**: [Code Review](../project-requirement-guidelines/gg.html#code-review)
+*   **5%**: [Individual Oral Presentation](../project-requirement-guidelines/opg.html#oral-presentation-guidelines)
+*   **2%**: [Report](../project-requirement-guidelines/gg.html#report-grading)
+*   **3%**: [Code Review](../project-requirement-guidelines/gg.html#code-review)
 
 <!--
 Having a code demonstration with insufficient quality will result in a penalty in Milestone 2. A quality code demonstration should demonstrate that the proposed scope is thoroughly implemented and well tested.
