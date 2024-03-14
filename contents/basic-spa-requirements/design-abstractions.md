@@ -50,7 +50,7 @@ In this section, we will use [Code 5](#code-5) to explain the design abstraction
             }
     14      normSq = cenX * cenX + cenY * cenY;
         }
-    
+
 
 [](#basic-design-abstractions)Basic Design Abstractions
 =======================================================
@@ -69,15 +69,15 @@ The table shows a summary of the design abstractions discussed in this section.
 **Definition:**
 
     For any statements s1 and s2:
-    
+
     Follows(s1, s2) holds if they are at the same nesting level, in the same
     statement list (stmtLst), and s2 appears in the program text immediately after
     s1.
-    
+
     Follows*(s1, s2) holds if
         - Follows(s1, s2) or
         - Follows(s1, s) and Follows*(s, s2) for some statement s
-    
+
 
 `Follows*` is the transitive closure of `Follows`.
 
@@ -111,13 +111,13 @@ It is useful to check which statement list directly contains the statement menti
 **Definition:**
 
     For any statements s1 and s2:
-    
+
     Parent(s1, s2) holds if s2 is directly nested in s1.
-    
+
     Parent*(s1, s2) holds if
         - Parent(s1, s2) or
         - Parent(s1, s) and Parent*(s, s2) for some statement s
-    
+
 
 `Parent*` is the transitive closure of `Parent`.
 
@@ -151,22 +151,25 @@ The following relationships are false (do not hold):
     For any variable v,
             assignment a,
             print stmt pn,
+            read stmt re,
             container stmt (if or while) s,
             procedure call c,
             procedure p:
-    
+
     Uses(a, v) holds if v appears on the right hand side of a.
-    
+
     Uses(pn, v) holds if variable v appears in pn.
-    
+
     Uses(s, v) holds if v appears in the condition of s, or
                there is a statement s1 in the container such that Uses(s1, v) holds.
-    
+
     Uses(p, v) holds if there is a statement s in p or in a procedure called
                (directly or indirectly) from p such that Uses(s, v) holds.
-    
+
     Uses(c, v) is defined in the same way as Uses(p, v).
-    
+
+    Uses(re, v) do not hold.
+
 
 **Examples:**
 
@@ -202,23 +205,26 @@ If a number refers to a container statement `s` (while or if statement), then `U
 
     For any variable v,
             assignment a,
+            print stmt pn,
             read stmt re,
             container stmt (if or while) s,
             procedure call c,
             procedure p:
-    
+
     Modifies(a, v) holds if variable v appears on the left hand side of a.
-    
+
     Modifies(re, v) holds if variable v appears in re.
-    
+
     Modifies(s, v) holds if there is a statement s1 in the container
                    such that Modifies(s1, v) holds.
-    
+
     Modifies(p, v) holds if there is a statement s in p or in a procedure called
                    (directly  or indirectly) from p such that Modifies(s, v) holds.
-    
+
     Modifies(c, v) is defined in the same way as Modifies(p, v).
-    
+
+    Modifies(pn, v) do not hold.
+
 
 **Examples:**
 

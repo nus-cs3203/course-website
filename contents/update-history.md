@@ -9,6 +9,15 @@
 [](#update-history)**Update History**
 =====================================
 
+[](#15-mar-2024)15 Mar 2024
+---------------------------
+
+* Added clarifications on semantic errors on synonyms used on relationships in PQL.
+
+    * Included interaction of Modifies with print statements, and Uses with read statements within [design abstractions](basic-spa-requirements/design-abstractions.html).
+
+    * Included summary of what is accepted in a query and what will constitute as a semantic error for synonym usage in [PQL in Basic SPA requirements](basic-spa-requirements/program-query-language/introduction.html#other-rules) and [PQL in Advanced SPA requirements](advanced-spa-requirements/pql.html#other-rules).
+
 [](#26-feb-2024)26 Feb 2024
 ---------------------------
 

@@ -138,6 +138,14 @@ A syntactically valid query is semantically invalid if it violates rules that ca
 **The following are rules that are not captured by the grammar:**
 
 1.  Rules stated in [Basic SPA requirements](../basic-spa-requirements/program-query-language/introduction.html#other-rules) still holds.
+
+    *   To add on, in summary, the following synonyms should be accepted, and should be regarded as a semantic error otherwise:
+        | Design Abstraction |                      First argument                      |                Second argument               |
+        |:------------------:|:--------------------------------------------------------:|:--------------------------------------------:|
+        | Calls / Calls*     | Synonym of procedure                                     | Synonym of procedure                         |
+        | Next / Next*       | Synonym of statement or a statement subtype              | Synonym of statement or a statement subtype  |
+        | Affects            | Synonym of statement or a statement subtype              | Synonym of statement or a statement subtype  |
+
 2.  `syn-while` must be declared as a synonym of an while-statement (design entity `while`).
 3.  `syn-if` must be declared as a synonym of an if-statement (design entity `if`).
 4.  For `attrCompare`, the two `ref` comparison must be of the same type (both `NAME`, or both `INTEGER`).

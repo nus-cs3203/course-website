@@ -123,5 +123,13 @@ A syntactically valid query is semantically invalid if it violates rules that ca
 5.  Synonyms of design entities can appear as relationship arguments, and should match the design entity defined for the relationship.
     *   E.g. For `Parent(arg1, arg2)`, if `arg1` is a synonym, then `arg1` must be a statement synonym, or a subtype of a statement synonym (read, print, assign, if, while, call).
     *   E.g. For `Modifies(arg1, arg2)`, if `arg2` is a synonym, then `arg2` must be a variable synonym.
+    *   In summary, the following synonyms should be accepted, and should be regarded as a semantic error otherwise:
+
+    | Design Abstraction |                      First argument                      |                Second argument               |
+    |:------------------:|:--------------------------------------------------------:|:--------------------------------------------:|
+    | Follows / Follows* | Synonym of statement or a statement subtype              | Synonym of statement or a statement subtype  |
+    | Parent / Parent*   | Synonym of statement or a statement subtype              | Synonym of statement or a statement subtype  |
+    | Uses / Modifies    | Synonym of statement or a statement subtype or procedure | Synonym of variable                          |
+
 6.  Similarly, synonyms of design entities can appear as arguments in pattern clauses, and should match the design entity defined for pattern clauses.
     *   E.g. For clause `pattern a (arg1, _)`, if `arg1` is a synonym, then `arg1` must be a variable synonym.
