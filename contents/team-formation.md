@@ -2,13 +2,13 @@
 
 # Team Formation
 
-Each project team consists of ideally 5-6 students and will be formed in Week 2. Students will be able to choose some of the teammates, but the rest of the teammates will be randomly allocated.
+Each project team consists of ideally 4 students and will be formed in Week 2. Students will be able to choose some of the teammates, but the rest of the teammates will be randomly allocated.
 
 The process is divided into 2 steps:
 
 Step 1: Choose some team members
 
-* Form a group of 2-3 people.
+* Form a group of 2 people.
 
 * Register your group on Canvas under People -> Project Team Formation by deadline stated on Canvas.
 
